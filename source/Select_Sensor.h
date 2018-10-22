@@ -1,16 +1,8 @@
-/*
- * Select_Sensor.h
- *
- *  Created on: 19/10/2018
- *      Author: CAB1GA
- */
-
 #ifndef SOURCE_SELECT_SENSOR_H_
 #define SOURCE_SELECT_SENSOR_H_
 
 /* system header files */
 //#include "AppController.h"
-#include "SensorControllerData.h"
 #include <stdio.h>
 #include <math.h>
 
@@ -20,6 +12,7 @@
 #include "BCDS_CmdProcessor.h"
 #include "FreeRTOS.h"
 #include "task.h"
+#include "SensorParameters.h"
 
 static void AccelAppCallback(void *param1, uint32_t param2);
 
@@ -73,16 +66,12 @@ static void AccelAppCallback(void *param1, uint32_t param2)
 {
     BCDS_UNUSED(param1);
     BCDS_UNUSED(param2);
-
-    //printf("Accelerometer sensor application callback received\r\n");
 }
 
 static void LightAppCallback(void *param1, uint32_t param2)
 {
     BCDS_UNUSED(param1);
     BCDS_UNUSED(param2);
-
-    //printf("*******Light sensor application callback received*******\r\n");
 }
 
 #endif /* SOURCE_SELECT_SENSOR_H_ */

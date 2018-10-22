@@ -12,18 +12,20 @@ C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/debug/objects/AppController.o:
  ../Platform/Utils/include/BCDS_CmdProcessor.h \
  ../Platform/Utils/include/BCDS_Utils.h \
  ../Common/config/Utils/BCDS_UtilsConfig.h \
- C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/SensorControllerData.h \
+ C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/SensorParameters.h \
  C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/Select_Sensor.h \
  ../Common/include/Sensor/XDK_Sensor.h \
- C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/SensorController.h \
- C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/get_accelerometer.h \
- C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/get_humidity.h \
- C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/get_pressure.h \
- C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/get_temperature.h \
- C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/get_magnetometer.h \
- C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/get_gyro.h \
- C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/get_light.h \
- C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/get_noise.h
+ C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/SensorsController.h \
+ C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/Controllers/AccelerometerController.h \
+ C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/Controllers/../Select_Sensor.h \
+ C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/Controllers/../SensorParameters.h \
+ C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/Controllers/HumidityController.h \
+ C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/Controllers/PressureController.h \
+ C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/Controllers/TemperatureController.h \
+ C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/Controllers/MagnetometerController.h \
+ C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/Controllers/GyroscopeController.h \
+ C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/Controllers/LightController.h \
+ C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/Controllers/NoiseController.h
 
 C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/XdkAppInfo.h:
 
@@ -49,26 +51,30 @@ C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/AppController.h:
 
 ../Common/config/Utils/BCDS_UtilsConfig.h:
 
-C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/SensorControllerData.h:
+C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/SensorParameters.h:
 
 C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/Select_Sensor.h:
 
 ../Common/include/Sensor/XDK_Sensor.h:
 
-C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/SensorController.h:
+C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/SensorsController.h:
 
-C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/get_accelerometer.h:
+C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/Controllers/AccelerometerController.h:
 
-C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/get_humidity.h:
+C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/Controllers/../Select_Sensor.h:
 
-C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/get_pressure.h:
+C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/Controllers/../SensorParameters.h:
 
-C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/get_temperature.h:
+C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/Controllers/HumidityController.h:
 
-C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/get_magnetometer.h:
+C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/Controllers/PressureController.h:
 
-C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/get_gyro.h:
+C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/Controllers/TemperatureController.h:
 
-C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/get_light.h:
+C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/Controllers/MagnetometerController.h:
 
-C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/get_noise.h:
+C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/Controllers/GyroscopeController.h:
+
+C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/Controllers/LightController.h:
+
+C:/Users/CAB1GA/XDK-Workspace/boschdayxdkstartkit/source/Controllers/NoiseController.h:

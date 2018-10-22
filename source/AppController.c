@@ -1,77 +1,23 @@
-/*
-* Licensee agrees that the example code provided to Licensee has been developed and released by Bosch solely as an example to be used as a potential reference for Licensee�s application development.
-* Fitness and suitability of the example code for any use within Licensee�s applications need to be verified by Licensee on its own authority by taking appropriate state of the art actions and measures (e.g. by means of quality assurance measures).
-* Licensee shall be responsible for conducting the development of its applications as well as integration of parts of the example code into such applications, taking into account the state of the art of technology and any statutory regulations and provisions applicable for such applications. Compliance with the functional system requirements and testing there of (including validation of information/data security aspects and functional safety) and release shall be solely incumbent upon Licensee.
-* For the avoidance of doubt, Licensee shall be responsible and fully liable for the applications and any distribution of such applications into the market.
-*
-*
-* Redistribution and use in source and binary forms, with or without
-* modification, are permitted provided that the following conditions are
-* met:
-*
-*     (1) Redistributions of source code must retain the above copyright
-*     notice, this list of conditions and the following disclaimer.
-*
-*     (2) Redistributions in binary form must reproduce the above copyright
-*     notice, this list of conditions and the following disclaimer in
-*     the documentation and/or other materials provided with the
-*     distribution.
-*
-*     (3)The name of the author may not be used to
-*     endorse or promote products derived from this software without
-*     specific prior written permission.
-*
-*  THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
-*  IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
-*  WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
-*  DISCLAIMED. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT,
-*  INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
-*  (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
-*  SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
-*  HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT,
-*  STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING
-*  IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
-*  POSSIBILITY OF SUCH DAMAGE.
-*/
-/*----------------------------------------------------------------------------*/
-
-/**
- * @ingroup APPS_LIST
- *
- * @defgroup STREAM_SENSOR_DATA_OVER_USB StreamSensorDataOverUsb
- * @{
- *
- * @brief Application of printing all the defined sensors on serialport
- *
- * @details Demo application of printing all the defined sensors on serialport(USB virtual comport)
- *          every configured interval (#APP_CONTROLLER_TX_DELAY)
- *
- * @file
- **/
-
-/* module includes ********************************************************** */
-
 /* own header files */
 #include "XdkAppInfo.h"
 
 #undef BCDS_MODULE_ID  /* Module ID define before including Basics package*/
 #define BCDS_MODULE_ID XDK_APP_MODULE_ID_APP_CONTROLLER
 
-
 /* own header files */
 #include "AppController.h"
 
-#include "SensorControllerData.h"
+#include "SensorParameters.h"
 #include "Select_Sensor.h"
-#include "SensorController.h"
-#include "get_accelerometer.h"
-#include "get_humidity.h"
-#include "get_pressure.h"
-#include "get_temperature.h"
-#include "get_magnetometer.h"
-#include "get_gyro.h"
-#include "get_light.h"
-#include "get_noise.h"
+#include "SensorsController.h"
+#include "Controllers/AccelerometerController.h"
+#include "Controllers/HumidityController.h"
+#include "Controllers/PressureController.h"
+#include "Controllers/TemperatureController.h"
+#include "Controllers/MagnetometerController.h"
+#include "Controllers/GyroscopeController.h"
+#include "Controllers/LightController.h"
+#include "Controllers/NoiseController.h"
 
 
 /* system header files */
@@ -84,7 +30,6 @@
 #include "BCDS_CmdProcessor.h"
 #include "FreeRTOS.h"
 #include "task.h"
-
 
 static CmdProcessor_T *AppCmdProcessor;/**< Handle to store the main Command processor handle to be reused by ServalPAL thread */
 
@@ -106,15 +51,15 @@ static void AppControllerFire(void* pvParameters)
         retcode = Sensor_GetData(&sensorValue);
         if (RETCODE_OK == retcode)
         {
-        	//get_data();              Entrega los datos de todos los sensores
-        	get_data_acc();
-        	get_data_humidity();
-        	get_data_pressure();
-        	get_data_temperature();
-        	get_data_magnetometer();
-        	get_data_gyro();
-        	get_data_light();
-        	get_data_noise();
+        	getAllSensorsData();
+        	get_Accelerometer();
+        	get_Humidity();
+        	get_Pressure();
+        	get_Temperature();
+        	get_Magnetometer();
+        	get_Gyroscope();
+        	get_Light();
+        	get_Noise();
         }
         if (RETCODE_OK != retcode)
         {

@@ -1,16 +1,7 @@
-/*
- * get_light.h
- *
- *  Created on: 19/10/2018
- *      Author: CAB1GA
- */
-
 #ifndef SOURCE_GET_LIGHT_H_
 #define SOURCE_GET_LIGHT_H_
 
-#include "Select_Sensor.h"
-#include "SensorControllerData.h"
-//#include "AppController.h"
+#include "../Select_Sensor.h"
 #include "XDK_Utils.h"
 
 #include <stdio.h>
@@ -22,12 +13,11 @@
 #include "BCDS_CmdProcessor.h"
 #include "FreeRTOS.h"
 #include "task.h"
+#include "../SensorParameters.h"
 
 
-get_data_light()
+get_Light()
 {
-    //BCDS_UNUSED(pvParameters);
-
     Retcode_T retcode = RETCODE_OK;
     Sensor_Value_T sensorValue;
 
