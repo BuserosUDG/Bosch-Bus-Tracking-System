@@ -1,4 +1,4 @@
-C:/Users/CAB1GA/XDK-Workspace/SensorData/debug/objects/source/Utility/Storage.o: \
+C:/Users/RED1GA/Documents/Repositories/boschdayxdkstartkit/debug/objects/source/Utility/Storage.o: \
  source/Utility/Storage.c ../Common/include/XdkCommonInfo.h \
  ../Platform/Essentials/include/BCDS_Retcode.h \
  ../Platform/Essentials/include/BCDS_Basics.h \

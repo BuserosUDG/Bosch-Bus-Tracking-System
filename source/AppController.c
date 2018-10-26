@@ -18,7 +18,9 @@
 #include "Controllers/GyroscopeController.h"
 #include "Controllers/LightController.h"
 #include "Controllers/NoiseController.h"
-
+#include "APIController.h"
+#include "BTController.h"
+#include "XDK_LED.h"
 
 /* system header files */
 #include <stdio.h>
@@ -51,15 +53,10 @@ static void AppControllerFire(void* pvParameters)
         retcode = Sensor_GetData(&sensorValue);
         if (RETCODE_OK == retcode)
         {
-        	getAllSensorsData();
-        	get_Accelerometer();
-        	get_Humidity();
-        	get_Pressure();
-        	get_Temperature();
-        	get_Magnetometer();
-        	get_Gyroscope();
-        	get_Light();
-        	get_Noise();
+        	//getAllSensorsData();
+        	sendAPIData(&sensorValue);
+        	sendBTData(&sensorValue);
+
         }
         if (RETCODE_OK != retcode)
         {
@@ -76,7 +73,22 @@ static void AppControllerEnable(void * param1, uint32_t param2)
     BCDS_UNUSED(param2);
 
     Retcode_T retcode = Sensor_Enable();
-    if (RETCODE_OK == retcode)
+    Retcode_T retcode2 = WLAN_Enable();
+    Retcode_T retcode3 = BLE_Enable();
+        if (RETCODE_OK == retcode2)
+        {
+            retcode2 = ServalPAL_Enable();
+        }
+        if (RETCODE_OK == retcode2)
+        {
+            retcode2 = HTTPRestClient_Enable();
+        }
+        if (RETCODE_OK != retcode2)
+                   {
+            	LED_On(LED_INBUILT_RED);
+            	retcode2 = RETCODE_OK;
+                   }
+    if (RETCODE_OK == retcode && RETCODE_OK == retcode2 && RETCODE_OK == retcode3)
     {
         if (pdPASS != xTaskCreate(AppControllerFire, (const char * const ) "AppController", TASK_STACK_SIZE_APP_CONTROLLER, NULL, TASK_PRIO_APP_CONTROLLER, &AppControllerHandle))
         {
@@ -99,7 +111,17 @@ static void AppControllerSetup(void * param1, uint32_t param2)
 
     SensorSetup.CmdProcessorHandle = AppCmdProcessor;
     Retcode_T retcode = Sensor_Setup(&SensorSetup);
-    if (RETCODE_OK == retcode)
+    Retcode_T retcode2 = WLAN_Setup(&WLANSetupInfo);
+    Retcode_T retcode3 = BLE_Setup(&BLESetupInfo);
+    if (RETCODE_OK == retcode2)
+       {
+           retcode2 = ServalPAL_Setup(AppCmdProcessor);
+       }
+       if (RETCODE_OK == retcode2)
+       {
+           retcode2 = HTTPRestClient_Setup(&HTTPRestClientSetupInfo);
+       }
+    if (RETCODE_OK == retcode && RETCODE_OK == retcode2 && RETCODE_OK == retcode3)
     {
         retcode = CmdProcessor_Enqueue(AppCmdProcessor, AppControllerEnable, NULL, UINT32_C(0));
     }

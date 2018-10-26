@@ -1,4 +1,4 @@
-C:/Users/CAB1GA/XDK-Workspace/SensorData/debug/objects/source/Connectivity/HTTPRestClientSecurity.o: \
+C:/Users/RED1GA/Documents/Repositories/boschdayxdkstartkit/debug/objects/source/Connectivity/HTTPRestClientSecurity.o: \
  source/Connectivity/HTTPRestClientSecurity.c \
  ../Common/include/XdkCommonInfo.h \
  ../Platform/Essentials/include/BCDS_Retcode.h \
