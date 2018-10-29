@@ -1,4 +1,4 @@
-C:/Users/RED1GA/Documents/Repositories/boschdayxdkstartkit/debug/objects/source/BatteryMonitor.o: \
+C:/Users/lud1ga/Documents/SocialCoding/boschdayxdkstartkit/debug/objects/source/BatteryMonitor.o: \
  source/BatteryMonitor.c ../Common/include/BatteryMonitor.h \
  ../Platform/Essentials/include/BCDS_Retcode.h \
  ../Platform/Essentials/include/BCDS_Basics.h \

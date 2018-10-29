@@ -1,4 +1,4 @@
-C:/Users/RED1GA/Documents/Repositories/boschdayxdkstartkit/debug/objects/source/Connectivity/WLANHostPgm.o: \
+C:/Users/lud1ga/Documents/SocialCoding/boschdayxdkstartkit/debug/objects/source/Connectivity/WLANHostPgm.o: \
  source/Connectivity/WLANHostPgm.c ../Common/include/XdkCommonInfo.h \
  ../Platform/Essentials/include/BCDS_Retcode.h \
  ../Platform/Essentials/include/BCDS_Basics.h \

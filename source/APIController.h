@@ -13,13 +13,13 @@
  * WLAN_SSID is the WIFI network name where user wants connect the XDK device.
  * Make sure to update the WLAN_PSK constant according to your required WIFI network.
  */
-#define WLAN_SSID                           "Androiderp"
+#define WLAN_SSID                           "dlv"
 
 /**
  * WLAN_PSK is the WIFI router WPA/WPA2 password used at the Wifi network connection.
  * Make sure to update the WLAN_PSK constant according to your router password.
  */
-#define WLAN_PSK                            "12345678"
+#define WLAN_PSK                            "holahola"
 
 /**
  * WLAN_STATIC_IP is a boolean. If "true" then static IP will be assigned and if "false" then DHCP is used.

@@ -45,7 +45,7 @@ static void AppControllerFire(void* pvParameters)
 
     Retcode_T retcode = RETCODE_OK;
     Sensor_Value_T sensorValue;
-
+    SetProcessor(AppCmdProcessor);
     memset(&sensorValue, 0x00, sizeof(sensorValue));
     while (1)
     {
@@ -53,10 +53,8 @@ static void AppControllerFire(void* pvParameters)
         retcode = Sensor_GetData(&sensorValue);
         if (RETCODE_OK == retcode)
         {
-        	//getAllSensorsData();
         	sendAPIData(&sensorValue);
-        	sendBTData(&sensorValue);
-
+        	setBTData(&sensorValue);
         }
         if (RETCODE_OK != retcode)
         {

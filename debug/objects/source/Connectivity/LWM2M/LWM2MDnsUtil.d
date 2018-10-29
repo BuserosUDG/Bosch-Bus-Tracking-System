@@ -1,4 +1,4 @@
-C:/Users/RED1GA/Documents/Repositories/boschdayxdkstartkit/debug/objects/source/Connectivity/LWM2M/LWM2MDnsUtil.o: \
+C:/Users/lud1ga/Documents/SocialCoding/boschdayxdkstartkit/debug/objects/source/Connectivity/LWM2M/LWM2MDnsUtil.o: \
  source/Connectivity/LWM2M/LWM2MDnsUtil.c \
  ../Common/include/XdkCommonInfo.h \
  ../Platform/Essentials/include/BCDS_Retcode.h \

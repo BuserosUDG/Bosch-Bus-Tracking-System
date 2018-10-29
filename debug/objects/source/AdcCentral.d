@@ -1,4 +1,4 @@
-C:/Users/RED1GA/Documents/Repositories/boschdayxdkstartkit/debug/objects/source/AdcCentral.o: \
+C:/Users/lud1ga/Documents/SocialCoding/boschdayxdkstartkit/debug/objects/source/AdcCentral.o: \
  source/AdcCentral.c ../Common/include/AdcCentral.h \
  ../Common/source/Adc/Mcu_Adc.h ../Platform/Essentials/include/BCDS_HAL.h \
  ../Platform/Essentials/include/BCDS_Retcode.h \

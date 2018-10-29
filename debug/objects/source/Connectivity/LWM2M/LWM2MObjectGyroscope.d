@@ -1,4 +1,4 @@
-C:/Users/RED1GA/Documents/Repositories/boschdayxdkstartkit/debug/objects/source/Connectivity/LWM2M/LWM2MObjectGyroscope.o: \
+C:/Users/lud1ga/Documents/SocialCoding/boschdayxdkstartkit/debug/objects/source/Connectivity/LWM2M/LWM2MObjectGyroscope.o: \
  source/Connectivity/LWM2M/LWM2MObjectGyroscope.c \
  ../Common/include/XdkCommonInfo.h \
  ../Platform/Essentials/include/BCDS_Retcode.h \
