@@ -1,4 +1,4 @@
-C:/Users/CAB1GA/XDK-Workspace/SensorData/debug/objects/source/Connectivity/LWM2M/LWM2MSensorDeviceGyroscope.o: \
+C:/Users/lud1ga/Documents/SocialCoding/boschdayxdkstartkit/debug/objects/source/Connectivity/LWM2M/LWM2MSensorDeviceGyroscope.o: \
  source/Connectivity/LWM2M/LWM2MSensorDeviceGyroscope.c \
  ../Common/include/XdkCommonInfo.h \
  ../Platform/Essentials/include/BCDS_Retcode.h \

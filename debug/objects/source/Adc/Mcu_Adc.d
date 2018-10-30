@@ -1,4 +1,4 @@
-C:/Users/CAB1GA/XDK-Workspace/SensorData/debug/objects/source/Adc/Mcu_Adc.o: \
+C:/Users/lud1ga/Documents/SocialCoding/boschdayxdkstartkit/debug/objects/source/Adc/Mcu_Adc.o: \
  source/Adc/Mcu_Adc.c source/Adc/Mcu_Adc_Handle.h source/Adc/Mcu_Adc.h \
  ../Platform/Essentials/include/BCDS_HAL.h \
  ../Platform/Essentials/include/BCDS_Retcode.h \

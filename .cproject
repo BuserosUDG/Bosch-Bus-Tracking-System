@@ -18,9 +18,9 @@
 					<folderInfo id="cdt.managedbuild.toolchain.gnu.mingw.base.2085283633.823056962" name="/" resourcePath="">
 						<toolChain id="com.bosch.cds.xdk.toolchain.299555137" name="BCDS XDK Toolchain" superClass="com.bosch.cds.xdk.toolchain">
 							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="com.bosch.cds.xdk.toolchain.targetplatform.1469877962" isAbstract="false" osList="all" superClass="com.bosch.cds.xdk.toolchain.targetplatform"/>
-							<builder buildPath="${workspace_loc:\SensorData}" id="com.bosch.cds.xdk.toolchain.builder.509924666" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" superClass="com.bosch.cds.xdk.toolchain.builder"/>
+							<builder buildPath="${workspace_loc:\SensorData}" id="com.bosch.cds.xdk.toolchain.builder.509924666" keepEnvironmentInBuildfile="false" managedBuildOn="false" name="Gnu Make Builder" parallelBuildOn="true" parallelizationNumber="unlimited" superClass="com.bosch.cds.xdk.toolchain.builder"/>
 							<tool id="com.bosch.cds.xdk.toolchain.c.16501066" name="BCDS C Compiler" superClass="com.bosch.cds.xdk.toolchain.c">
-								<option id="gnu.c.compiler.option.include.paths.157029839" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
+								<option id="gnu.c.compiler.option.include.paths.157029839" name="Include paths (-I)" superClass="gnu.c.compiler.option.include.paths" valueType="includePath">
 									<listOptionValue builtIn="false" value="&quot;${ARM_GCC}/arm-none-eabi/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ARM_GCC}/lib/gcc/arm-none-eabi/4.7.4/include&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${ARM_GCC}/lib/gcc/arm-none-eabi/4.7.4/include-fixed&quot;"/>
@@ -95,7 +95,7 @@
 									<listOptionValue builtIn="false" value="&quot;${BCDS_BASE_DIR}/xdk110/Libraries/BLEStack/3rd-party/Alpwise/ALPW-BLESDKCM3/BLESW_CoreStack/Interfaces/ATT&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${BCDS_BASE_DIR}/xdk110/Common/legacy/include&quot;"/>
 								</option>
-								<option id="gnu.c.compiler.option.preprocessor.def.symbols.635767017" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
+								<option id="gnu.c.compiler.option.preprocessor.def.symbols.635767017" name="Defined symbols (-D)" superClass="gnu.c.compiler.option.preprocessor.def.symbols" valueType="definedSymbols">
 									<listOptionValue builtIn="false" value="EscX509_HASH_SHA1_ENABLED=1"/>
 									<listOptionValue builtIn="false" value="SERVAL_POLICY_STACK_CALLS_TLS_API=1"/>
 									<listOptionValue builtIn="false" value="EscTls_CIPHER_SUITE=TLS_PSK_WITH_AES_128_CCM_8"/>
