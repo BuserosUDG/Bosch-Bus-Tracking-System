@@ -12,7 +12,7 @@
 /**
  * APP_CONTROLLER_BLE_DEVICE_NAME is the BLE device name.
  */
-#define APP_CONTROLLER_BLE_DEVICE_NAME     "BOSCHDAY_XDK_01"
+#define APP_CONTROLLER_BLE_DEVICE_NAME     "BOSCHDAY_XDK_04"
 
 /**
  * APP_CONTROLLER_BLE_START_ID is the part of the payload to be received from
@@ -357,7 +357,7 @@ static void AppControllerBleDataRxCB(uint8_t *rxBuffer, uint8_t rxDataLength, vo
 
 static void setBTData(Sensor_Value_T * sensorValue)
 {
-	memcpy(&sensorValue, &latestSensorValue, (sizeof sensorValue));
+	latestSensorValue = *sensorValue;
 }
 
 static void SetProcessor(CmdProcessor_T * processor){
