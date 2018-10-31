@@ -33,6 +33,8 @@
 #include "FreeRTOS.h"
 #include "task.h"
 
+Retcode_T statusWifi = RETCODE_OK;
+
 static CmdProcessor_T *AppCmdProcessor;/**< Handle to store the main Command processor handle to be reused by ServalPAL thread */
 
 
@@ -53,7 +55,10 @@ static void AppControllerFire(void* pvParameters)
         retcode = Sensor_GetData(&sensorValue);
         if (RETCODE_OK == retcode)
         {
-        	sendAPIData(&sensorValue);
+        	if(RETCODE_OK == statusWifi)
+        	{
+        		sendAPIData(&sensorValue);
+        	}
         	setBTData(&sensorValue);
         }
         if (RETCODE_OK != retcode)
@@ -84,6 +89,7 @@ static void AppControllerEnable(void * param1, uint32_t param2)
         if (RETCODE_OK != retcode2)
                    {
             	LED_On(LED_INBUILT_RED);
+            	statusWifi = retcode2;
             	retcode2 = RETCODE_OK;
                    }
     if (RETCODE_OK == retcode && RETCODE_OK == retcode2 && RETCODE_OK == retcode3)
