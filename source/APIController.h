@@ -173,7 +173,7 @@ static void AppControllerValidateWLANConnectivity(void)
 static void sendAPIData(Sensor_Value_T * sensorValue)
 {
 	char jsonFile[1024];
-	int sizeJson = sprintf (jsonFile, "{ \"api_key\": \"SQVOBLO9TNLEI481\", \"field1\": \"%ld %ld %ld\", \"field2\": \"%ld %ld %ld %ld\", \"field3\": \"%ld %ld %ld\", "
+	int sizeJson = sprintf (jsonFile, "{ \"api_key\": \"29DSPSIRIDIWXPX4\", \"field1\": \"%ld %ld %ld\", \"field2\": \"%ld %ld %ld %ld\", \"field3\": \"%ld %ld %ld\", "
 			"\"field4\": \"%ld\", \"field5\": \"%f\", \"field6\": \"%ld\", \"field7\": \"%f\", \"field8\": \"%ld\" }"
 			, sensorValue->Accel.X, sensorValue->Accel.Y, sensorValue->Accel.Z, sensorValue->Mag.X, sensorValue->Mag.Y, sensorValue->Mag.Z, sensorValue->Mag.R, sensorValue->Gyro.X, sensorValue->Gyro.Y, sensorValue->Gyro.Z,sensorValue->RH,sensorValue->Temp,sensorValue->Pressure,sensorValue->Light , sensorValue->Noise);
 
