@@ -1,4 +1,4 @@
-C:/Users/lud1ga/Documents/SocialCoding/boschdayxdkstartkit/debug/objects/source/Sensor/ExternalSensor.o: \
+C:/Users/user/Otros/boschday-xdk-start-kit/debug/objects/source/Sensor/ExternalSensor.o: \
  source/Sensor/ExternalSensor.c ../Common/include/XdkCommonInfo.h \
  ../Platform/Essentials/include/BCDS_Retcode.h \
  ../Platform/Essentials/include/BCDS_Basics.h \

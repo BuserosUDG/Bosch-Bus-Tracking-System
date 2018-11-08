@@ -1,4 +1,4 @@
-C:/Users/lud1ga/Documents/SocialCoding/boschdayxdkstartkit/debug/objects/source/Connectivity/BLE/BleDeviceInfoService.o: \
+C:/Users/user/Otros/boschday-xdk-start-kit/debug/objects/source/Connectivity/BLE/BleDeviceInfoService.o: \
  source/Connectivity/BLE/BleDeviceInfoService.c \
  ../Platform/Essentials/include/BCDS_Basics.h \
  ../Platform/Essentials/include/BCDS_Retcode.h \

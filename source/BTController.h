@@ -12,7 +12,7 @@
 /**
  * APP_CONTROLLER_BLE_DEVICE_NAME is the BLE device name.
  */
-#define APP_CONTROLLER_BLE_DEVICE_NAME     "BOSCHDAY_XDK_01"
+#define APP_CONTROLLER_BLE_DEVICE_NAME     "BOSCHDAY_XDK_07"
 
 /**
  * APP_CONTROLLER_BLE_START_ID is the part of the payload to be received from

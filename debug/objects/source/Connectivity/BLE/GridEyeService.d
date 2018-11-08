@@ -1,4 +1,4 @@
-C:/Users/lud1ga/Documents/SocialCoding/boschdayxdkstartkit/debug/objects/source/Connectivity/BLE/GridEyeService.o: \
+C:/Users/user/Otros/boschday-xdk-start-kit/debug/objects/source/Connectivity/BLE/GridEyeService.o: \
  source/Connectivity/BLE/GridEyeService.c \
  ../Common/include/XdkCommonInfo.h \
  ../Platform/Essentials/include/BCDS_Retcode.h \

@@ -1,4 +1,4 @@
-C:/Users/lud1ga/Documents/SocialCoding/boschdayxdkstartkit/debug/objects/source/cJSON.o: \
+C:/Users/user/Otros/boschday-xdk-start-kit/debug/objects/source/cJSON.o: \
  source/cJSON.c ../Common/include/cJSON.h
 
 ../Common/include/cJSON.h:

@@ -1,4 +1,4 @@
-C:/Users/lud1ga/Documents/SocialCoding/boschdayxdkstartkit/debug/objects/source/Connectivity/LWM2M/LWM2MObjectConnectivityMonitoring.o: \
+C:/Users/user/Otros/boschday-xdk-start-kit/debug/objects/source/Connectivity/LWM2M/LWM2MObjectConnectivityMonitoring.o: \
  source/Connectivity/LWM2M/LWM2MObjectConnectivityMonitoring.c \
  ../Common/include/XdkCommonInfo.h \
  ../Platform/Essentials/include/BCDS_Retcode.h \

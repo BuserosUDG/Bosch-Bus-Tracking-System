@@ -1,4 +1,4 @@
-C:/Users/lud1ga/Documents/SocialCoding/boschdayxdkstartkit/debug/objects/source/Utility/CayenneLPPSerializer.o: \
+C:/Users/user/Otros/boschday-xdk-start-kit/debug/objects/source/Utility/CayenneLPPSerializer.o: \
  source/Utility/CayenneLPPSerializer.c ../Common/include/XdkCommonInfo.h \
  ../Platform/Essentials/include/BCDS_Retcode.h \
  ../Platform/Essentials/include/BCDS_Basics.h \

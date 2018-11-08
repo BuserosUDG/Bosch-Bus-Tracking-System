@@ -13,13 +13,13 @@
  * WLAN_SSID is the WIFI network name where user wants connect the XDK device.
  * Make sure to update the WLAN_PSK constant according to your required WIFI network.
  */
-#define WLAN_SSID                           "dlv"
+#define WLAN_SSID                           "miguel497"
 
 /**
  * WLAN_PSK is the WIFI router WPA/WPA2 password used at the Wifi network connection.
  * Make sure to update the WLAN_PSK constant according to your router password.
  */
-#define WLAN_PSK                            "holahola"
+#define WLAN_PSK                            "retobosch"
 
 /**
  * WLAN_STATIC_IP is a boolean. If "true" then static IP will be assigned and if "false" then DHCP is used.
@@ -173,7 +173,7 @@ static void AppControllerValidateWLANConnectivity(void)
 static void sendAPIData(Sensor_Value_T * sensorValue)
 {
 	char jsonFile[1024];
-	int sizeJson = sprintf (jsonFile, "{ \"api_key\": \"29DSPSIRIDIWXPX4\", \"field1\": \"%ld %ld %ld\", \"field2\": \"%ld %ld %ld %ld\", \"field3\": \"%ld %ld %ld\", "
+	int sizeJson = sprintf (jsonFile, "{ \"api_key\": \"ZUX8A2QRI10SI6HN\", \"field1\": \"%ld %ld %ld\", \"field2\": \"%ld %ld %ld %ld\", \"field3\": \"%ld %ld %ld\", "
 			"\"field4\": \"%ld\", \"field5\": \"%f\", \"field6\": \"%ld\", \"field7\": \"%f\", \"field8\": \"%ld\" }"
 			, sensorValue->Accel.X, sensorValue->Accel.Y, sensorValue->Accel.Z, sensorValue->Mag.X, sensorValue->Mag.Y, sensorValue->Mag.Z, sensorValue->Mag.R, sensorValue->Gyro.X, sensorValue->Gyro.Y, sensorValue->Gyro.Z,sensorValue->RH,sensorValue->Temp,sensorValue->Pressure,sensorValue->Light , sensorValue->Noise);
 

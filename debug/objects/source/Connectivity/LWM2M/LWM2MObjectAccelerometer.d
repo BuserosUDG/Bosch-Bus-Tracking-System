@@ -1,4 +1,4 @@
-C:/Users/lud1ga/Documents/SocialCoding/boschdayxdkstartkit/debug/objects/source/Connectivity/LWM2M/LWM2MObjectAccelerometer.o: \
+C:/Users/user/Otros/boschday-xdk-start-kit/debug/objects/source/Connectivity/LWM2M/LWM2MObjectAccelerometer.o: \
  source/Connectivity/LWM2M/LWM2MObjectAccelerometer.c \
  ../Common/include/XdkCommonInfo.h \
  ../Platform/Essentials/include/BCDS_Retcode.h \
