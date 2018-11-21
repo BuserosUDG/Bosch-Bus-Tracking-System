@@ -29,6 +29,9 @@
 #define BT_COMMAND_GET_LIGHT 				"getlight"
 #define BT_COMMAND_GET_NOISE 				"getnoise"
 
+//#define BT_COMMAND_GET_BUSID				"getbusid"
+//#define BT_COMMAND_GET_BUSROUTE			"getbusroute"
+
 enum BT_COMMAND_ID {
 	BT_COMMAND_GET_TEMP_ID,
 	BT_COMMAND_GET_ACCEL_ID,

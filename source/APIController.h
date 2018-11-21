@@ -173,9 +173,15 @@ static void AppControllerValidateWLANConnectivity(void)
 static void sendAPIData(Sensor_Value_T * sensorValue)
 {
 	char jsonFile[1024];
-	int sizeJson = sprintf (jsonFile, "{ \"api_key\": \"ZUX8A2QRI10SI6HN\", \"field1\": \"%ld %ld %ld\", \"field2\": \"%ld %ld %ld %ld\", \"field3\": \"%ld %ld %ld\", "
-			"\"field4\": \"%ld\", \"field5\": \"%f\", \"field6\": \"%ld\", \"field7\": \"%f\", \"field8\": \"%ld\" }"
-			, sensorValue->Accel.X, sensorValue->Accel.Y, sensorValue->Accel.Z, sensorValue->Mag.X, sensorValue->Mag.Y, sensorValue->Mag.Z, sensorValue->Mag.R, sensorValue->Gyro.X, sensorValue->Gyro.Y, sensorValue->Gyro.Z,sensorValue->RH,sensorValue->Temp,sensorValue->Pressure,sensorValue->Light , sensorValue->Noise);
+//	int sizeJson = sprintf (jsonFile, "{ \"api_key\": \"ZUX8A2QRI10SI6HN\", \"field1\": \"%ld %ld %ld\", \"field2\": \"%ld %ld %ld %ld\", \"field3\": \"%ld %ld %ld\", "
+//			"\"field4\": \"%ld\", \"field5\": \"%f\", \"field6\": \"%ld\", \"field7\": \"%f\", \"field8\": \"%ld\" }"
+//			, sensorValue->Accel.X, sensorValue->Accel.Y, sensorValue->Accel.Z, sensorValue->Mag.X, sensorValue->Mag.Y, sensorValue->Mag.Z, sensorValue->Mag.R, sensorValue->Gyro.X, sensorValue->Gyro.Y, sensorValue->Gyro.Z,sensorValue->RH,sensorValue->Temp,sensorValue->Pressure,sensorValue->Light , sensorValue->Noise);
+
+	// Channel 1 - BusID, route, and acceleration
+
+	int sizeJson = sprintf (jsonFile, "{ \"api_key\": \"ZUX8A2QRI10SI6HN\", \"field1\": \" R622-01 %ld %ld %ld\" }"
+			, sensorValue->Accel.X, sensorValue->Accel.Y, sensorValue->Accel.Z);
+
 
 	HTTPRestClient_Post_T HTTPRestClientPostInfo =
 	        {
