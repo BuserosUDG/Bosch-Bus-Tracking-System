@@ -1,24 +1,13 @@
-You have an empty repository
-To get started you will need to run these commands in your terminal.
-New to Git? Learn the basic Git commands
-Configure Git for the first time
-git config --global user.name "[USER NAME]"
-git config --global user.email "[Bosch email]"
-Working with your repository
-I just want to clone this repository
-If you want to simply clone this empty repository then run this command in your terminal.
-git clone https://[NT-USER]@sourcecode.socialcoding.bosch.com/scm/~lud1ga/boschdayxdkstartkit.git
-My code is ready to be pushed
-If you already have code ready to be pushed to this repository then run this in your terminal.
-cd existing-project
-git init
-git add --all
-git commit -m "Initial Commit"
-git remote add origin https://[NT-USER]@sourcecode.socialcoding.bosch.com/scm/~lud1ga/boschdayxdkstartkit.git
-git push -u origin master
-My code is already tracked by Git
-If your code is already tracked by Git then set this repository as your "origin" to push to.
-cd existing-project
-git remote set-url origin https://[NT-USER]@sourcecode.socialcoding.bosch.com/scm/~lud1ga/boschdayxdkstartkit.git
-git push -u origin --all
-git push origin --tags
+# About the project
+
+The Bosch Bus Tracking System aims to provide users of the public transport with buses location, approximate waiting times and a way to request for a bus with wheelchair support for the physically impaired, all via a mobile app, by using an XDK on every bus, and a Raspberry Pi on every bus stop.
+
+## How it works
+
+The XDK uses a Thingspeak channel to upload sensor data, as well as a bus ID and a route ID, which is then retrieved by the mobile app to calculate the approximate location of the bus.
+
+The Raspberry Pi scans the devices (XDKs) in range by using Bluetooth Low Energy (BLE), to update the buses location. The Bluetooth address is the only variable used, which eliminates the need of pairing, saving time and minimizing data loss.
+
+## Getting started
+
+To get started, clone the repository, and create a new project in the XDK Workbench by importing the project from the file system (excluding the Raspberry Pi folder).
