@@ -22,8 +22,6 @@ special_service = ['Y','N','N']
 arrived_bus_ID = ''
 arrived_bus_route = ''
 
-##XDK_Bus_1 = "fc:d6:bd:10:0f:2b"
-#XDK_Bus_1 = "d0:d2:b0:97:a1:c6"
 myAPI = '82YNHFSEJ8PNTZ52'
 baseURL = 'https://api.thingspeak.com/update?api_key=%s' %myAPI
 
@@ -62,11 +60,11 @@ def sends_data(ind):
     arrived_bus_ID = buses[ind]
     arrived_bus_route = routes[ind]
     servicio_e = special_service[ind]
-    dato = arrived_bus_ID+servicio_e+"-"+arrived_bus_route+"-"+arrived_bus_ID
-    conn = urllib2.urlopen(baseURL+'&field1=%s'%dato)
+    bus_route_stop_id = arrived_bus_ID+servicio_e+"-"+arrived_bus_route+"-"+bus_stop_ID
+    conn = urllib2.urlopen(baseURL+'&field1=%s'%bus_route_stop_id)
     print "POST no:" + conn.read()
     conn.close()
-    print dato
+    print bus_route_stop_id
 
 ## Main program	
 while True:
