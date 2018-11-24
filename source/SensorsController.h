@@ -90,22 +90,22 @@ getAllSensorsData()
 	               printf("\ \r\n");
 
 	            }
-	            if (SensorSetup.Enable.Humidity)
+	     /*       if (SensorSetup.Enable.Humidity)
 	            {
 	                printf("BME280 Environmental Conversion Data for Humidity:\n\rh =%ld %%rh\r\n",
 	                        (long int) sensorValue.RH);
 
 	                printf("\ \r\n");
-	            }
-	            if (SensorSetup.Enable.Pressure)
+	            }*/
+	     /*       if (SensorSetup.Enable.Pressure)
 	            {
 	                printf("BME280 Environmental Conversion Data for Pressure :\n\rp =%ld Pa\r\n",
 	                        (long int) sensorValue.Pressure);
 
 	                printf("\ \r\n");
 
-	            }
-	            if (SensorSetup.Enable.Temp)
+	            }*/
+	     /*       if (SensorSetup.Enable.Temp)
 	            {
 	            	printf("BME280 Environmental Conversion Data for temperature :\n\rt =%.2f mD\r\n",
 	            			(float) sensorValue.Temp);
@@ -118,8 +118,8 @@ getAllSensorsData()
 
 	            	printf("\ \r\n");
 
-	            }
-	            if (SensorSetup.Enable.Mag && !(SensorSetup.Config.Mag.IsRawData))
+	            }*/
+	    /*        if (SensorSetup.Enable.Mag && !(SensorSetup.Config.Mag.IsRawData))
 	            {
 	                printf("Magnetometer Converted data :\n\rx =%ld microTesla\n\ry =%ld microTesla\n\rz =%ld microTesla\n\rr =%ld\r\n",
 	                        (long int) sensorValue.Mag.X,
@@ -139,8 +139,8 @@ getAllSensorsData()
 
 	                printf("\ \r\n");
 
-	            }
-	            if (SensorSetup.Enable.Gyro && !(SensorSetup.Config.Gyro.IsRawData))
+	            }*/
+	    /*        if (SensorSetup.Enable.Gyro && !(SensorSetup.Config.Gyro.IsRawData))
 	            {
 	                printf("Gyro Converted Data :\n\rx =%ld mDeg\n\ry =%ld mDeg\n\rz =%ld mDeg\r\n",
 	                        (long int) sensorValue.Gyro.X,
@@ -157,8 +157,8 @@ getAllSensorsData()
 	                        (long int) sensorValue.Gyro.Z);
 
 	                printf("\ \r\n");
-	            }
-	            if (SensorSetup.Enable.Light)
+	            }*/
+	    /*        if (SensorSetup.Enable.Light)
 	            {
 	            	printf("Light sensor data obtained in millilux :%d \n\r", (unsigned int) sensorValue.Light);
 
@@ -168,8 +168,8 @@ getAllSensorsData()
 	            	printf("Valor en luxes: %f lux\n\r", luxes);
 
 	            	printf("\ \r\n");
-	            }
-	            if (SensorSetup.Enable.Noise)
+	            }*/
+	    /*        if (SensorSetup.Enable.Noise)
 	            {
 	            	printf("Noise Sensor RMS Voltage :\r\nVrms = %f \r\n", sensorValue.Noise);
 
@@ -180,7 +180,7 @@ getAllSensorsData()
 	            	printf("Noise Sensor data:\r\ndb = %f \r\n", db);
 
 	            	printf("\ \r\n");
-	            }
+	            }*/
 
     }
 

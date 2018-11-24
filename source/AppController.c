@@ -49,17 +49,24 @@ static void AppControllerFire(void* pvParameters)
     Sensor_Value_T sensorValue;
     SetProcessor(AppCmdProcessor);
     memset(&sensorValue, 0x00, sizeof(sensorValue));
+
+    int contador = 0;
+
     while (1)
     {
 
         retcode = Sensor_GetData(&sensorValue);
         if (RETCODE_OK == retcode)
         {
-        	if(RETCODE_OK == statusWifi)
+        	if(RETCODE_OK == statusWifi && contador == 14)
         	{
+        		contador = 0;
         		sendAPIData(&sensorValue);
         	}
-        	setBTData(&sensorValue);
+        	else{
+        		contador++;
+        	}
+        	//setBTData(&sensorValue);
         }
         if (RETCODE_OK != retcode)
         {
