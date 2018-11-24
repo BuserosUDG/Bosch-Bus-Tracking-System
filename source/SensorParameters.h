@@ -5,7 +5,7 @@
 
 
 //#define APP_CONTROLLER_TX_DELAY             UINT32_C(30000)
-#define APP_CONTROLLER_TX_DELAY             UINT32_C(100)
+#define APP_CONTROLLER_TX_DELAY             UINT32_C(100) //0.1s
 
 
 #define APP_TEMPERATURE_OFFSET_CORRECTION   (-3459)

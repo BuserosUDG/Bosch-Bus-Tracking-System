@@ -13,13 +13,13 @@
  * WLAN_SSID is the WIFI network name where user wants connect the XDK device.
  * Make sure to update the WLAN_PSK constant according to your required WIFI network.
  */
-#define WLAN_SSID                           "miguel497"
+#define WLAN_SSID                           "Treehouse"
 
 /**
  * WLAN_PSK is the WIFI router WPA/WPA2 password used at the Wifi network connection.
  * Make sure to update the WLAN_PSK constant according to your router password.
  */
-#define WLAN_PSK                            "retobosch"
+#define WLAN_PSK                            "(/100114762406/)"
 
 /**
  * WLAN_STATIC_IP is a boolean. If "true" then static IP will be assigned and if "false" then DHCP is used.
@@ -170,7 +170,7 @@ static void AppControllerValidateWLANConnectivity(void)
     }
 }
 
-static void sendAPIData(Sensor_Value_T * sensorValue, float Vx_p,float Vy_p,float Vz_p)
+static void sendAPIData(Sensor_Value_T * sensorValue, long int Vx_p,long int Vy_p,long int Vz_p)
 {
 	char jsonFile[1024];
 //	int sizeJson = sprintf (jsonFile, "{ \"api_key\": \"ZUX8A2QRI10SI6HN\", \"field1\": \"%ld %ld %ld\", \"field2\": \"%ld %ld %ld %ld\", \"field3\": \"%ld %ld %ld\", "
@@ -179,7 +179,7 @@ static void sendAPIData(Sensor_Value_T * sensorValue, float Vx_p,float Vy_p,floa
 
 	// Channel 1 - BusID, route, and acceleration
 
-	int sizeJson = sprintf (jsonFile, "{ \"api_key\": \"ZUX8A2QRI10SI6HN\", \"field1\": \" B03N-R622 %f %f %f\" }"
+	int sizeJson = sprintf (jsonFile, "{ \"api_key\": \"ZUX8A2QRI10SI6HN\", \"field1\": \" B03N-R622 %ld %ld %ld\" }"
 			, Vx_p, Vy_p, Vz_p);
 
 

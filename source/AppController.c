@@ -50,13 +50,17 @@ static void AppControllerFire(void* pvParameters)
     SetProcessor(AppCmdProcessor);
     memset(&sensorValue, 0x00, sizeof(sensorValue));
 
-    int contador = 0;
+    int counter = 0;
+    float temp = 0;
     float Vx_t = 0;
     float Vy_t = 0;
     float Vz_t = 0;
-    float Vx_p = 0;
-    float Vy_p = 0;
-    float Vz_p = 0;
+    long int Vx_p = 0;
+    long int Vy_p = 0;
+    long int Vz_p = 0;
+
+    int noiseThreshold = 50; // Accel has to be over 0.5m/s^2, considering 0.1s sampling
+    int gravThreshold = 981;  // 9.81m/s^2
 
     while (1)
     {
@@ -64,31 +68,51 @@ static void AppControllerFire(void* pvParameters)
         retcode = Sensor_GetData(&sensorValue);
         if (RETCODE_OK == retcode)
         {
-        	if(RETCODE_OK == statusWifi && contador == 159)
+        	if(RETCODE_OK == statusWifi && counter == 160)
         	{
-        		Vx_p /= contador;
-        		Vy_p /= contador;
-        		Vz_p /= contador;
-        		contador = 0;
+        		Vx_p /= 2; //Calculates average velocity
+        		Vy_p /= 2;
+        		Vz_p /= 2;
+        		counter = 0;
         		sendAPIData(&sensorValue, Vx_p,Vy_p,Vz_p);
+        		printf("Vx_p final = %ld m/s\n", Vx_p/1000);
+        		printf("Vy_p final = %ld m/s\n", Vy_p/1000);
+        		printf("Vz_p final = %ld m/s\n", Vz_p/1000);
+        		printf("Dis X final = %ld m\n", Vx_p*16/1000);
+        		printf("Dis Y final = %ld m\n", Vy_p*16/1000); //For testing only. Calculates distance traveled
+        		printf("Dis Z final = %ld m\n", Vz_p*16/1000);
         		Vx_t = 0;
         		Vy_t = 0;
         		Vz_t = 0;
         		Vx_p = 0;
         		Vy_p = 0;
         		Vz_p = 0;
+        		temp = 0;
         	}
-        	else{
-        		contador++;
-
-        		Vx_t += sensorValue->Accel.X * 0.1;
-        		Vy_t += sensorValue->Accel.Y * 0.1;
-        		Vz_t += sensorValue->Accel.Z * 0.1;
-
+        	else
+        	{
+        		counter++;
+        		temp = sensorValue.Accel.X * 0.1; //Calculates instantaneous velocity
+        		if(abs(temp)>noiseThreshold)
+        		{
+        			Vx_t += temp;
+        			printf("Vx_p = %d\n", Vx_p);
+        		}
+        		temp = sensorValue.Accel.Y * 0.1;
+        		if(abs(temp)>noiseThreshold)
+        		{
+        			Vy_t += temp;
+        			printf("Vy_p = %d\n", Vy_p);
+        		}
+        		temp = sensorValue.Accel.Z * 0.1;
+        		if(abs(temp)>gravThreshold)
+        		{
+        			Vz_t += temp-gravThreshold;
+        			printf("Vz_p = %d\n", Vz_p);
+        		}
         		Vx_p += Vx_t;
         		Vy_p += Vy_t;
         		Vz_p += Vz_t;
-
         	}
         	setBTData(&sensorValue);
         }
