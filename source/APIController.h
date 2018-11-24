@@ -179,7 +179,7 @@ static void sendAPIData(Sensor_Value_T * sensorValue)
 
 	// Channel 1 - BusID, route, and acceleration
 
-	int sizeJson = sprintf (jsonFile, "{ \"api_key\": \"ZUX8A2QRI10SI6HN\", \"field1\": \" R622-01 %ld %ld %ld\" }"
+	int sizeJson = sprintf (jsonFile, "{ \"api_key\": \"ZUX8A2QRI10SI6HN\", \"field1\": \" B03N-R622 %ld %ld %ld\" }"
 			, sensorValue->Accel.X, sensorValue->Accel.Y, sensorValue->Accel.Z);
 
 
