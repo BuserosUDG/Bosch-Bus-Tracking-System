@@ -170,7 +170,7 @@ static void AppControllerValidateWLANConnectivity(void)
     }
 }
 
-static void sendAPIData(Sensor_Value_T * sensorValue)
+static void sendAPIData(Sensor_Value_T * sensorValue, float Vx_p,float Vy_p,float Vz_p)
 {
 	char jsonFile[1024];
 //	int sizeJson = sprintf (jsonFile, "{ \"api_key\": \"ZUX8A2QRI10SI6HN\", \"field1\": \"%ld %ld %ld\", \"field2\": \"%ld %ld %ld %ld\", \"field3\": \"%ld %ld %ld\", "
@@ -179,8 +179,8 @@ static void sendAPIData(Sensor_Value_T * sensorValue)
 
 	// Channel 1 - BusID, route, and acceleration
 
-	int sizeJson = sprintf (jsonFile, "{ \"api_key\": \"ZUX8A2QRI10SI6HN\", \"field1\": \" B03N-R622 %ld %ld %ld\" }"
-			, sensorValue->Accel.X, sensorValue->Accel.Y, sensorValue->Accel.Z);
+	int sizeJson = sprintf (jsonFile, "{ \"api_key\": \"ZUX8A2QRI10SI6HN\", \"field1\": \" B03N-R622 %f %f %f\" }"
+			, Vx_p, Vy_p, Vz_p);
 
 
 	HTTPRestClient_Post_T HTTPRestClientPostInfo =

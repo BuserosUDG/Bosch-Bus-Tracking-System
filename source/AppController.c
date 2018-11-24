@@ -51,6 +51,12 @@ static void AppControllerFire(void* pvParameters)
     memset(&sensorValue, 0x00, sizeof(sensorValue));
 
     int contador = 0;
+    float Vx_t = 0;
+    float Vy_t = 0;
+    float Vz_t = 0;
+    float Vx_p = 0;
+    float Vy_p = 0;
+    float Vz_p = 0;
 
     while (1)
     {
@@ -60,13 +66,31 @@ static void AppControllerFire(void* pvParameters)
         {
         	if(RETCODE_OK == statusWifi && contador == 159)
         	{
+        		Vx_p /= contador;
+        		Vy_p /= contador;
+        		Vz_p /= contador;
         		contador = 0;
-        		sendAPIData(&sensorValue);
+        		sendAPIData(&sensorValue, Vx_p,Vy_p,Vz_p);
+        		Vx_t = 0;
+        		Vy_t = 0;
+        		Vz_t = 0;
+        		Vx_p = 0;
+        		Vy_p = 0;
+        		Vz_p = 0;
         	}
         	else{
         		contador++;
+
+        		Vx_t += sensorValue->Accel.X * 0.1;
+        		Vy_t += sensorValue->Accel.Y * 0.1;
+        		Vz_t += sensorValue->Accel.Z * 0.1;
+
+        		Vx_p += Vx_t;
+        		Vy_p += Vy_t;
+        		Vz_p += Vz_t;
+
         	}
-        	//setBTData(&sensorValue);
+        	setBTData(&sensorValue);
         }
         if (RETCODE_OK != retcode)
         {
