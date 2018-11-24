@@ -1,4 +1,4 @@
-C:/Users/user/Otros/boschday-xdk-start-kit/debug/objects/source/AdcCentral.o: \
+C:/Users/migue/Home/Bosch-Bus-Tracking-System/debug/objects/source/AdcCentral.o: \
  source/AdcCentral.c ../Common/include/AdcCentral.h \
  ../Common/source/Adc/Mcu_Adc.h ../Platform/Essentials/include/BCDS_HAL.h \
  ../Platform/Essentials/include/BCDS_Retcode.h \

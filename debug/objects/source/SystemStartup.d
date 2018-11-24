@@ -1,4 +1,4 @@
-C:/Users/user/Otros/boschday-xdk-start-kit/debug/objects/source/SystemStartup.o: \
+C:/Users/migue/Home/Bosch-Bus-Tracking-System/debug/objects/source/SystemStartup.o: \
  source/SystemStartup.c ../Common/include/XdkCommonInfo.h \
  ../Platform/Essentials/include/BCDS_Retcode.h \
  ../Platform/Essentials/include/BCDS_Basics.h \

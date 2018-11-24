@@ -1,4 +1,4 @@
-C:/Users/user/Otros/boschday-xdk-start-kit/debug/objects/source/Assert.o: \
+C:/Users/migue/Home/Bosch-Bus-Tracking-System/debug/objects/source/Assert.o: \
  source/Assert.c ../Platform/Essentials/include/BCDS_Essentials.h \
  ../Platform/Essentials/include/BCDS_HAL.h \
  ../Platform/Essentials/include/BCDS_Retcode.h \

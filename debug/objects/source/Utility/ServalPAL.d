@@ -1,4 +1,4 @@
-C:/Users/user/Otros/boschday-xdk-start-kit/debug/objects/source/Utility/ServalPAL.o: \
+C:/Users/migue/Home/Bosch-Bus-Tracking-System/debug/objects/source/Utility/ServalPAL.o: \
  source/Utility/ServalPAL.c ../Common/include/XdkCommonInfo.h \
  ../Platform/Essentials/include/BCDS_Retcode.h \
  ../Platform/Essentials/include/BCDS_Basics.h \

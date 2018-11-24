@@ -1,4 +1,4 @@
-C:/Users/user/Otros/boschday-xdk-start-kit/debug/objects/source/Connectivity/LWM2M/LWM2MObjectTemperature.o: \
+C:/Users/migue/Home/Bosch-Bus-Tracking-System/debug/objects/source/Connectivity/LWM2M/LWM2MObjectTemperature.o: \
  source/Connectivity/LWM2M/LWM2MObjectTemperature.c \
  ../Common/include/XdkCommonInfo.h \
  ../Platform/Essentials/include/BCDS_Retcode.h \

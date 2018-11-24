@@ -1,4 +1,4 @@
-C:/Users/user/Otros/boschday-xdk-start-kit/debug/objects/source/Connectivity/LWM2M/LWM2MDnsUtil.o: \
+C:/Users/migue/Home/Bosch-Bus-Tracking-System/debug/objects/source/Connectivity/LWM2M/LWM2MDnsUtil.o: \
  source/Connectivity/LWM2M/LWM2MDnsUtil.c \
  ../Common/include/XdkCommonInfo.h \
  ../Platform/Essentials/include/BCDS_Retcode.h \
