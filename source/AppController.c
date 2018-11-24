@@ -58,7 +58,7 @@ static void AppControllerFire(void* pvParameters)
         retcode = Sensor_GetData(&sensorValue);
         if (RETCODE_OK == retcode)
         {
-        	if(RETCODE_OK == statusWifi && contador == 14)
+        	if(RETCODE_OK == statusWifi && contador == 159)
         	{
         		contador = 0;
         		sendAPIData(&sensorValue);
