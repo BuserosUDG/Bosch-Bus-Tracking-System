@@ -51,10 +51,10 @@ static void AppControllerFire(void* pvParameters)
     memset(&sensorValue, 0x00, sizeof(sensorValue));
 
     int counter = 0;
-    float temp = 0;
-    float Vx_t = 0;
-    float Vy_t = 0;
-    float Vz_t = 0;
+    long int temp = 0;
+    long int Vx_t = 0;
+    long int Vy_t = 0;
+    long int Vz_t = 0;
     long int Vx_p = 0;
     long int Vy_p = 0;
     long int Vz_p = 0;
@@ -68,19 +68,19 @@ static void AppControllerFire(void* pvParameters)
         retcode = Sensor_GetData(&sensorValue);
         if (RETCODE_OK == retcode)
         {
-        	if(RETCODE_OK == statusWifi && counter == 160)
+        	if(RETCODE_OK == statusWifi && counter == 160) //sends data every 16 seconds to thingspeak
         	{
-        		Vx_p /= 2; //Calculates average velocity
-        		Vy_p /= 2;
-        		Vz_p /= 2;
+        		Vx_p /= (160*1000); //Calculates average velocity
+        		Vy_p /= (160*1000);
+        		Vz_p /= (160*1000);
         		counter = 0;
         		sendAPIData(&sensorValue, Vx_p,Vy_p,Vz_p);
-        		printf("Vx_p final = %ld m/s\n", Vx_p/1000);
-        		printf("Vy_p final = %ld m/s\n", Vy_p/1000);
-        		printf("Vz_p final = %ld m/s\n", Vz_p/1000);
-        		printf("Dis X final = %ld m\n", Vx_p*16/1000);
-        		printf("Dis Y final = %ld m\n", Vy_p*16/1000); //For testing only. Calculates distance traveled
-        		printf("Dis Z final = %ld m\n", Vz_p*16/1000);
+        		printf("Vx_p final = %ld m/s\n", Vx_p);
+        		printf("Vy_p final = %ld m/s\n", Vy_p);
+        		printf("Vz_p final = %ld m/s\n", Vz_p);
+        		printf("Dis X final = %ld m\n", Vx_p*16);
+        		printf("Dis Y final = %ld m\n", Vy_p*16); //Calculates distance traveled
+        		printf("Dis Z final = %ld m\n", Vz_p*16);
         		Vx_t = 0;
         		Vy_t = 0;
         		Vz_t = 0;
@@ -92,23 +92,24 @@ static void AppControllerFire(void* pvParameters)
         	else
         	{
         		counter++;
-        		temp = sensorValue.Accel.X * 0.1; //Calculates instantaneous velocity
+        		get_Accelerometer();
+        		temp = mtsx * 0.1*1000; // mtsx in m/s^2 // Calculates instantaneous velocity
         		if(abs(temp)>noiseThreshold)
         		{
         			Vx_t += temp;
-        			printf("Vx_p = %d\n", Vx_p);
+        			printf("Vx_t = %ld\n", Vx_t);
         		}
-        		temp = sensorValue.Accel.Y * 0.1;
+        		temp = mtsy * 0.1*1000;
         		if(abs(temp)>noiseThreshold)
         		{
         			Vy_t += temp;
-        			printf("Vy_p = %d\n", Vy_p);
+        			printf("Vy_t = %ld\n", Vy_t);
         		}
-        		temp = sensorValue.Accel.Z * 0.1;
+        		temp = mtsz * 0.1*1000;
         		if(abs(temp)>gravThreshold)
         		{
         			Vz_t += temp-gravThreshold;
-        			printf("Vz_p = %d\n", Vz_p);
+        			printf("Vz_t = %ld\n", Vz_t);
         		}
         		Vx_p += Vx_t;
         		Vy_p += Vy_t;
@@ -120,7 +121,7 @@ static void AppControllerFire(void* pvParameters)
         {
             Retcode_RaiseError(retcode);
         }
-        vTaskDelay(pdMS_TO_TICKS(APP_CONTROLLER_TX_DELAY));
+        vTaskDelay(pdMS_TO_TICKS(APP_CONTROLLER_TX_DELAY)); //0.1s sampling period
     }
 }
 

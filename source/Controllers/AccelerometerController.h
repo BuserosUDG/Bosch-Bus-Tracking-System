@@ -38,12 +38,12 @@ get_Accelerometer()
 	if (SensorSetup.Enable.Accel && !(SensorSetup.Config.Accel.IsRawData))
 	            {
 
-	                printf("Accelerometer Converted data :\n\rx =%ld mg\n\ry =%ld mg\n\rz =%ld mg\r\n",
-	                        (long int) sensorValue.Accel.X,
-	                        (long int) sensorValue.Accel.Y,
-	                        (long int) sensorValue.Accel.Z);
+	                //printf("Accelerometer Converted data :\n\rx =%ld mg\n\ry =%ld mg\n\rz =%ld mg\r\n",
+	                //        (long int) sensorValue.Accel.X,
+	                //        (long int) sensorValue.Accel.Y,
+	                //        (long int) sensorValue.Accel.Z);
 
-	                printf("\ \r\n");
+	               // printf("\ \r\n");
 
 	            	mgtogx =  (float) sensorValue.Accel.X / 1000;
 	                mgtogy =  (float) sensorValue.Accel.Y / 1000;
@@ -53,20 +53,20 @@ get_Accelerometer()
 	                mtsy = mgtogy * gravity1 - 0.3;
 	                mtsz = mgtogz * gravity1 - 0.3;
 
-	            	printf("Valores en m/s2 :\n\rx =%0.3f m/s2\n\ry =%0.3f m/s2\n\rz =%0.3f m/s2\r\n",
-	            			(float) mtsx, (float) mtsy, (float) mtsz);
+	            	//printf("Valores en m/s2 :\n\rx =%0.3f m/s2\n\ry =%0.3f m/s2\n\rz =%0.3f m/s2\r\n",
+	            	//		(float) mtsx, (float) mtsy, (float) mtsz);
 
-	            	printf("\ \r\n");
+	            	//printf("\ \r\n");
 	            }
 
 	            if (SensorSetup.Enable.Accel && (SensorSetup.Config.Accel.IsRawData))
 	            {
-	                printf("Accelerometer Converted data :\n\rx =%ld mg\n\ry =%ld mg\n\rz =%ld mg\r\n",
-	                        (long int) sensorValue.Accel.X,
-	                        (long int) sensorValue.Accel.Y,
-	                        (long int) sensorValue.Accel.Z);
+	                //printf("Accelerometer Converted data :\n\rx =%ld mg\n\ry =%ld mg\n\rz =%ld mg\r\n",
+	                //        (long int) sensorValue.Accel.X,
+	                //        (long int) sensorValue.Accel.Y,
+	                //        (long int) sensorValue.Accel.Z);
 
-	                printf("\ \r\n");
+	                //printf("\ \r\n");
 
 	           	   mgtogx =  (float) sensorValue.Accel.X / 1000;
 	               mgtogy =  (float) sensorValue.Accel.Y / 1000;
@@ -76,10 +76,10 @@ get_Accelerometer()
 	               mtsy = mgtogy * gravity1 - 0.3;
 	               mtsz = mgtogz * gravity1 - 0.3;
 
-	               printf("Valores en m/s2 :\n\rx =%0.3f m/s2\n\ry =%0.3f m/s2\n\rz =%0.3f m/s2\r\n",
-	           			(float) mtsx, (float) mtsy, (float) mtsz);
+	               //printf("Valores en m/s2 :\n\rx =%0.3f m/s2\n\ry =%0.3f m/s2\n\rz =%0.3f m/s2\r\n",
+	               //	(float) mtsx, (float) mtsy, (float) mtsz);
 
-	               printf("\ \r\n");
+	               // printf("\ \r\n");
 
 	            }
     }
