@@ -17738,429 +17738,429 @@ LOAD c:/xdk-workbench/xdk/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/armv7-m/crtn
  .rodata.GridEyeServiceUUID
                 0x000591ec       0x10 C:/Users/migue/Home/Bosch-Bus-Tracking-System/debug/objects/source/Connectivity/BLE/GridEyeService.o
                 0x000591ec                GridEyeServiceUUID
- .rodata        0x000591fc      0x6d8 C:/Users/migue/Home/Bosch-Bus-Tracking-System/debug/objects/AppController.o
- .rodata        0x000598d4       0x74 C:/Users/migue/Home/Bosch-Bus-Tracking-System/debug/objects/Main.o
+ .rodata        0x000591fc      0x6dc C:/Users/migue/Home/Bosch-Bus-Tracking-System/debug/objects/AppController.o
+ .rodata        0x000598d8       0x74 C:/Users/migue/Home/Bosch-Bus-Tracking-System/debug/objects/Main.o
  .rodata.manualModeLookUpTable
-                0x00059948        0x4 ./../Platform/Sensors/debug/libSensors_efm32_debug.a(LightSensor.o)
- .rodata.continousModeLookUpTable
                 0x0005994c        0x4 ./../Platform/Sensors/debug/libSensors_efm32_debug.a(LightSensor.o)
+ .rodata.continousModeLookUpTable
+                0x00059950        0x4 ./../Platform/Sensors/debug/libSensors_efm32_debug.a(LightSensor.o)
  .rodata.integrationtimeLookupTable
-                0x00059950        0x8 ./../Platform/Sensors/debug/libSensors_efm32_debug.a(LightSensor.o)
+                0x00059954        0x8 ./../Platform/Sensors/debug/libSensors_efm32_debug.a(LightSensor.o)
  .rodata.brightnessLookupTable
-                0x00059958        0x4 ./../Platform/Sensors/debug/libSensors_efm32_debug.a(LightSensor.o)
- .rodata.interruptStatusLookupTable
                 0x0005995c        0x4 ./../Platform/Sensors/debug/libSensors_efm32_debug.a(LightSensor.o)
+ .rodata.interruptStatusLookupTable
+                0x00059960        0x4 ./../Platform/Sensors/debug/libSensors_efm32_debug.a(LightSensor.o)
  .rodata.modeLookUpTable
-                0x00059960        0x4 ./../Platform/Sensors/debug/libSensors_efm32_debug.a(Magnetometer.o)
- .rodata        0x00059964       0x20 ./../Platform/BSP/debug/libBSP_efm32_debug.a(BSP_Board.o)
+                0x00059964        0x4 ./../Platform/Sensors/debug/libSensors_efm32_debug.a(Magnetometer.o)
+ .rodata        0x00059968       0x20 ./../Platform/BSP/debug/libBSP_efm32_debug.a(BSP_Board.o)
  .rodata.USB_manufacturerName_gau
-                0x00059984       0x58 ./../Platform/BSP/debug/libBSP_efm32_debug.a(BSP_USB.o)
+                0x00059988       0x58 ./../Platform/BSP/debug/libBSP_efm32_debug.a(BSP_USB.o)
  .rodata.USB_productName_gau
-                0x000599dc       0x24 ./../Platform/BSP/debug/libBSP_efm32_debug.a(BSP_USB.o)
+                0x000599e0       0x24 ./../Platform/BSP/debug/libBSP_efm32_debug.a(BSP_USB.o)
  .rodata.USB_deviceDescriptor_mds
-                0x00059a00       0x14 ./../Platform/BSP/debug/libBSP_efm32_debug.a(BSP_USB.o)
+                0x00059a04       0x14 ./../Platform/BSP/debug/libBSP_efm32_debug.a(BSP_USB.o)
  .rodata.USB_configDescriptor_ma
-                0x00059a14       0x44 ./../Platform/BSP/debug/libBSP_efm32_debug.a(BSP_USB.o)
+                0x00059a18       0x44 ./../Platform/BSP/debug/libBSP_efm32_debug.a(BSP_USB.o)
  .rodata.langID
-                0x00059a58        0x4 ./../Platform/BSP/debug/libBSP_efm32_debug.a(BSP_USB.o)
+                0x00059a5c        0x4 ./../Platform/BSP/debug/libBSP_efm32_debug.a(BSP_USB.o)
  .rodata.USB_strings_ma
-                0x00059a5c       0x10 ./../Platform/BSP/debug/libBSP_efm32_debug.a(BSP_USB.o)
+                0x00059a60       0x10 ./../Platform/BSP/debug/libBSP_efm32_debug.a(BSP_USB.o)
  .rodata.USB_callbacks_mds
-                0x00059a6c       0x14 ./../Platform/BSP/debug/libBSP_efm32_debug.a(BSP_USB.o)
+                0x00059a70       0x14 ./../Platform/BSP/debug/libBSP_efm32_debug.a(BSP_USB.o)
  .rodata.USB_initStruct_mds
-                0x00059a80       0x1c ./../Platform/BSP/debug/libBSP_efm32_debug.a(BSP_USB.o)
- .rodata        0x00059a9c       0x1c ./../Platform/BSP/debug/libBSP_efm32_debug.a(BSP_USB.o)
- .rodata        0x00059ab8       0x24 ./../Libraries/FreeRTOS/debug/libFreeRTOS_efm32_debug.a(queue.o)
- .rodata        0x00059adc       0x2c ./../Libraries/FreeRTOS/debug/libFreeRTOS_efm32_debug.a(tasks.o)
- .rodata        0x00059b08       0x34 ./../Libraries/FreeRTOS/debug/libFreeRTOS_efm32_debug.a(timers.o)
+                0x00059a84       0x1c ./../Platform/BSP/debug/libBSP_efm32_debug.a(BSP_USB.o)
+ .rodata        0x00059aa0       0x1c ./../Platform/BSP/debug/libBSP_efm32_debug.a(BSP_USB.o)
+ .rodata        0x00059abc       0x24 ./../Libraries/FreeRTOS/debug/libFreeRTOS_efm32_debug.a(queue.o)
+ .rodata        0x00059ae0       0x2c ./../Libraries/FreeRTOS/debug/libFreeRTOS_efm32_debug.a(tasks.o)
+ .rodata        0x00059b0c       0x34 ./../Libraries/FreeRTOS/debug/libFreeRTOS_efm32_debug.a(timers.o)
  .rodata.xHeapStructSize
-                0x00059b3c        0x4 ./../Libraries/FreeRTOS/debug/libFreeRTOS_efm32_debug.a(heap_4.o)
- .rodata        0x00059b40       0x34 ./../Libraries/FreeRTOS/debug/libFreeRTOS_efm32_debug.a(heap_4.o)
+                0x00059b40        0x4 ./../Libraries/FreeRTOS/debug/libFreeRTOS_efm32_debug.a(heap_4.o)
+ .rodata        0x00059b44       0x34 ./../Libraries/FreeRTOS/debug/libFreeRTOS_efm32_debug.a(heap_4.o)
  .rodata.pcInterruptPriorityRegisters
-                0x00059b74        0x4 ./../Libraries/FreeRTOS/debug/libFreeRTOS_efm32_debug.a(port.o)
- .rodata        0x00059b78       0x38 ./../Libraries/FreeRTOS/debug/libFreeRTOS_efm32_debug.a(port.o)
+                0x00059b78        0x4 ./../Libraries/FreeRTOS/debug/libFreeRTOS_efm32_debug.a(port.o)
+ .rodata        0x00059b7c       0x38 ./../Libraries/FreeRTOS/debug/libFreeRTOS_efm32_debug.a(port.o)
  .rodata.i2cNSum
-                0x00059bb0        0x4 ./../Libraries/EMlib/debug/libEMLib_efm32_debug.a(em_i2c.o)
+                0x00059bb4        0x4 ./../Libraries/EMlib/debug/libEMLib_efm32_debug.a(em_i2c.o)
  .rodata.StartResponseLUT
-                0x00059bb4        0x8 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(device.o)
+                0x00059bb8        0x8 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(device.o)
  .rodata._SlStopCmdCtrl
-                0x00059bbc        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(device.o)
- .rodata._SlDeviceGetCmdCtrl
                 0x00059bc0        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(device.o)
+ .rodata._SlDeviceGetCmdCtrl
+                0x00059bc4        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(device.o)
  .rodata.g_H2NSyncPattern
-                0x00059bc4        0x8 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(driver.o)
+                0x00059bc8        0x8 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(driver.o)
  .rodata.g_H2NCnysPattern
-                0x00059bcc        0x8 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(driver.o)
+                0x00059bd0        0x8 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(driver.o)
  .rodata._SlActionLookupTable
-                0x00059bd4       0x38 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(driver.o)
-                0x00059bd4                _SlActionLookupTable
+                0x00059bd8       0x38 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(driver.o)
+                0x00059bd8                _SlActionLookupTable
  .rodata.OpcodeTranslateTable
-                0x00059c0c       0x3c ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(driver.o)
-                0x00059c0c                OpcodeTranslateTable
+                0x00059c10       0x3c ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(driver.o)
+                0x00059c10                OpcodeTranslateTable
  .rodata.RxMsgClassLUT
-                0x00059c48       0x20 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(driver.o)
- .rodata        0x00059c68       0x14 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(fs.o)
+                0x00059c4c       0x20 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(driver.o)
+ .rodata        0x00059c6c       0x14 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(fs.o)
  .rodata._SlFsOpenCmdCtrl
-                0x00059c7c        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(fs.o)
- .rodata._SlFsCloseCmdCtrl
                 0x00059c80        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(fs.o)
- .rodata._SlFsWriteCmdCtrl
+ .rodata._SlFsCloseCmdCtrl
                 0x00059c84        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(fs.o)
+ .rodata._SlFsWriteCmdCtrl
+                0x00059c88        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(fs.o)
  .rodata._SlNetAppStopCtrl
-                0x00059c88        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(netapp.o)
- .rodata._SlGetHostByNameCtrl
                 0x00059c8c        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(netapp.o)
- .rodata._SlNetAppSendTokenValueCmdCtrl
+ .rodata._SlGetHostByNameCtrl
                 0x00059c90        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(netapp.o)
-                0x00059c90                _SlNetAppSendTokenValueCmdCtrl
+ .rodata._SlNetAppSendTokenValueCmdCtrl
+                0x00059c94        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(netapp.o)
+                0x00059c94                _SlNetAppSendTokenValueCmdCtrl
  .rodata._SlNetCfgSetCmdCtrl
-                0x00059c94        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(netcfg.o)
- .rodata._SlNetCfgGetCmdCtrl
                 0x00059c98        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(netcfg.o)
+ .rodata._SlNetCfgGetCmdCtrl
+                0x00059c9c        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(netcfg.o)
  .rodata._SlPayloadByProtocolLUT
-                0x00059c9c       0x10 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(socket.o)
+                0x00059ca0       0x10 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(socket.o)
  .rodata._SlSockSocketCmdCtrl
-                0x00059cac        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(socket.o)
- .rodata._SlSockCloseCmdCtrl
                 0x00059cb0        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(socket.o)
- .rodata._SlSendCmdCtrl
+ .rodata._SlSockCloseCmdCtrl
                 0x00059cb4        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(socket.o)
- .rodata._SlListenCmdCtrl
+ .rodata._SlSendCmdCtrl
                 0x00059cb8        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(socket.o)
- .rodata._SlAcceptCmdCtrl
+ .rodata._SlListenCmdCtrl
                 0x00059cbc        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(socket.o)
- .rodata._SlRecvCmdCtrl
+ .rodata._SlAcceptCmdCtrl
                 0x00059cc0        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(socket.o)
- .rodata._SlSetSockOptCmdCtrl
+ .rodata._SlRecvCmdCtrl
                 0x00059cc4        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(socket.o)
- .rodata._SlSelectCmdCtrl
+ .rodata._SlSetSockOptCmdCtrl
                 0x00059cc8        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(socket.o)
+ .rodata._SlSelectCmdCtrl
+                0x00059ccc        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(socket.o)
  .rodata._SlPolicySetCmdCtrl
-                0x00059ccc        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(wlan.o)
- .rodata._SlProfileDelCmdCtrl
                 0x00059cd0        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(wlan.o)
- .rodata._SlWlanSetModeCmdCtrl
+ .rodata._SlProfileDelCmdCtrl
                 0x00059cd4        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(wlan.o)
- .rodata._SlWlanCfgSetCmdCtrl
+ .rodata._SlWlanSetModeCmdCtrl
                 0x00059cd8        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(wlan.o)
+ .rodata._SlWlanCfgSetCmdCtrl
+                0x00059cdc        0x4 ./../Libraries/WiFi/debug/libWiFi_efm32_debug.a(wlan.o)
  .rodata.Http_Protocol_V10
-                0x00059cdc        0xc ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059cdc                Http_Protocol_V10
+                0x00059ce0        0xc ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059ce0                Http_Protocol_V10
  .rodata.Http_Protocol_V11
-                0x00059ce8        0xc ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059ce8                Http_Protocol_V11
+                0x00059cec        0xc ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059cec                Http_Protocol_V11
  .rodata.Http_Method_Get
-                0x00059cf4        0x4 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059cf4                Http_Method_Get
+                0x00059cf8        0x4 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059cf8                Http_Method_Get
  .rodata.Http_Method_Post
-                0x00059cf8        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059cf8                Http_Method_Post
+                0x00059cfc        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059cfc                Http_Method_Post
  .rodata.Http_Method_Put
-                0x00059d00        0x4 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059d00                Http_Method_Put
+                0x00059d04        0x4 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059d04                Http_Method_Put
  .rodata.Http_Method_Head
-                0x00059d04        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059d04                Http_Method_Head
+                0x00059d08        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059d08                Http_Method_Head
  .rodata.Http_Method_Delete
-                0x00059d0c        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059d0c                Http_Method_Delete
+                0x00059d10        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059d10                Http_Method_Delete
  .rodata.Http_Method_Unknown
-                0x00059d14        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059d14                Http_Method_Unknown
+                0x00059d18        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059d18                Http_Method_Unknown
  .rodata.Http_Header_ContentLength
-                0x00059d1c       0x10 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059d1c                Http_Header_ContentLength
+                0x00059d20       0x10 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059d20                Http_Header_ContentLength
  .rodata.Http_Header_ContentType
-                0x00059d2c       0x10 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059d2c                Http_Header_ContentType
+                0x00059d30       0x10 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059d30                Http_Header_ContentType
  .rodata.Http_Header_Connection
-                0x00059d3c        0xc ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059d3c                Http_Header_Connection
+                0x00059d40        0xc ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059d40                Http_Header_Connection
  .rodata.Http_Header_Expect
-                0x00059d48        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059d48                Http_Header_Expect
+                0x00059d4c        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059d4c                Http_Header_Expect
  .rodata.Http_Header_Server
-                0x00059d50       0x18 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059d50                Http_Header_Server
+                0x00059d54       0x18 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059d54                Http_Header_Server
  .rodata.Http_Header_CacheControl
-                0x00059d68       0x10 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059d68                Http_Header_CacheControl
+                0x00059d6c       0x10 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059d6c                Http_Header_CacheControl
  .rodata.Http_CacheControl_No
-                0x00059d78       0x14 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059d78                Http_CacheControl_No
+                0x00059d7c       0x14 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059d7c                Http_CacheControl_No
  .rodata.Http_CacheControl_Yes
-                0x00059d8c       0x14 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059d8c                Http_CacheControl_Yes
+                0x00059d90       0x14 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059d90                Http_CacheControl_Yes
  .rodata.Http_Header_TransferEncoding
-                0x00059da0       0x14 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059da0                Http_Header_TransferEncoding
+                0x00059da4       0x14 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059da4                Http_Header_TransferEncoding
  .rodata.Http_Header_Host
-                0x00059db4        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059db4                Http_Header_Host
+                0x00059db8        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059db8                Http_Header_Host
  .rodata.Http_Header_ContentRange
-                0x00059dbc       0x10 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059dbc                Http_Header_ContentRange
+                0x00059dc0       0x10 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059dc0                Http_Header_ContentRange
  .rodata.Http_Header_Authorization
-                0x00059dcc       0x10 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059dcc                Http_Header_Authorization
+                0x00059dd0       0x10 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059dd0                Http_Header_Authorization
  .rodata.Http_Header_AuthenticationInfo
-                0x00059ddc       0x18 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059ddc                Http_Header_AuthenticationInfo
+                0x00059de0       0x18 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059de0                Http_Header_AuthenticationInfo
  .rodata.Http_AuthorizationType_Basic
-                0x00059df4        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059df4                Http_AuthorizationType_Basic
+                0x00059df8        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059df8                Http_AuthorizationType_Basic
  .rodata.Http_AuthorizationType_Digest
-                0x00059dfc        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059dfc                Http_AuthorizationType_Digest
+                0x00059e00        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059e00                Http_AuthorizationType_Digest
  .rodata.Http_AuthorizationType_Unknown
-                0x00059e04        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059e04                Http_AuthorizationType_Unknown
+                0x00059e08        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059e08                Http_AuthorizationType_Unknown
  .rodata.Http_WWW_Authentication_Header
-                0x00059e0c       0x14 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059e0c                Http_WWW_Authentication_Header
+                0x00059e10       0x14 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059e10                Http_WWW_Authentication_Header
  .rodata.Http_Authentication_realm
-                0x00059e20        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059e20                Http_Authentication_realm
+                0x00059e24        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059e24                Http_Authentication_realm
  .rodata.Http_AuthDigestOption_username
-                0x00059e28        0xc ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059e28                Http_AuthDigestOption_username
+                0x00059e2c        0xc ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059e2c                Http_AuthDigestOption_username
  .rodata.Http_AuthDigestOption_nonce
-                0x00059e34        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059e34                Http_AuthDigestOption_nonce
+                0x00059e38        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059e38                Http_AuthDigestOption_nonce
  .rodata.Http_AuthDigestOption_uri
-                0x00059e3c        0x4 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059e3c                Http_AuthDigestOption_uri
+                0x00059e40        0x4 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059e40                Http_AuthDigestOption_uri
  .rodata.Http_AuthDigestOption_response
-                0x00059e40        0xc ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059e40                Http_AuthDigestOption_response
+                0x00059e44        0xc ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059e44                Http_AuthDigestOption_response
  .rodata.Http_AuthDigestOption_cnonce
-                0x00059e4c        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059e4c                Http_AuthDigestOption_cnonce
+                0x00059e50        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059e50                Http_AuthDigestOption_cnonce
  .rodata.Http_AuthDigestOption_qop
-                0x00059e54        0x4 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059e54                Http_AuthDigestOption_qop
- .rodata.Http_AuthDigestOption_nc
                 0x00059e58        0x4 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059e58                Http_AuthDigestOption_nc
+                0x00059e58                Http_AuthDigestOption_qop
+ .rodata.Http_AuthDigestOption_nc
+                0x00059e5c        0x4 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059e5c                Http_AuthDigestOption_nc
  .rodata.Http_AuthDigestQop_auth
-                0x00059e5c        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059e5c                Http_AuthDigestQop_auth
+                0x00059e60        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059e60                Http_AuthDigestQop_auth
  .rodata.Http_AuthDigestNextNonce
-                0x00059e64        0xc ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059e64                Http_AuthDigestNextNonce
+                0x00059e68        0xc ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059e68                Http_AuthDigestNextNonce
  .rodata.Http_AuthDigestRspAuth
-                0x00059e70        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059e70                Http_AuthDigestRspAuth
+                0x00059e74        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059e74                Http_AuthDigestRspAuth
  .rodata.Http_AuthDigestNcValue
-                0x00059e78        0xc ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059e78                Http_AuthDigestNcValue
+                0x00059e7c        0xc ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059e7c                Http_AuthDigestNcValue
  .rodata.Http_AuthDigestOption_stale
-                0x00059e84        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059e84                Http_AuthDigestOption_stale
+                0x00059e88        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059e88                Http_AuthDigestOption_stale
  .rodata.Http_ContentType_Text_Plain
-                0x00059e8c        0xc ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059e8c                Http_ContentType_Text_Plain
+                0x00059e90        0xc ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059e90                Http_ContentType_Text_Plain
  .rodata.Http_ContentType_Text_Html
-                0x00059e98        0xc ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059e98                Http_ContentType_Text_Html
+                0x00059e9c        0xc ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059e9c                Http_ContentType_Text_Html
  .rodata.Http_ContentType_Text_Xml
-                0x00059ea4        0xc ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059ea4                Http_ContentType_Text_Xml
+                0x00059ea8        0xc ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059ea8                Http_ContentType_Text_Xml
  .rodata.Http_ContentType_App_Json
-                0x00059eb0       0x14 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059eb0                Http_ContentType_App_Json
+                0x00059eb4       0x14 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059eb4                Http_ContentType_App_Json
  .rodata.Http_ContentType_App_Exi
-                0x00059ec4       0x10 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059ec4                Http_ContentType_App_Exi
+                0x00059ec8       0x10 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059ec8                Http_ContentType_App_Exi
  .rodata.Http_ContentType_App_Soap
-                0x00059ed4       0x18 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059ed4                Http_ContentType_App_Soap
+                0x00059ed8       0x18 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059ed8                Http_ContentType_App_Soap
  .rodata.Http_ContentType_App_OctetStream
-                0x00059eec       0x1c ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059eec                Http_ContentType_App_OctetStream
+                0x00059ef0       0x1c ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059ef0                Http_ContentType_App_OctetStream
  .rodata.Http_ContentType_Unknown
-                0x00059f08        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059f08                Http_ContentType_Unknown
+                0x00059f0c        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059f0c                Http_ContentType_Unknown
  .rodata.Http_Connection_KeepAlive
-                0x00059f10        0xc ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059f10                Http_Connection_KeepAlive
+                0x00059f14        0xc ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059f14                Http_Connection_KeepAlive
  .rodata.Http_Connection_Close
-                0x00059f1c        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059f1c                Http_Connection_Close
+                0x00059f20        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059f20                Http_Connection_Close
  .rodata.Http_Encoding_Chunked
-                0x00059f24        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059f24                Http_Encoding_Chunked
+                0x00059f28        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059f28                Http_Encoding_Chunked
  .rodata.Http_Range_Bytes
-                0x00059f2c        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059f2c                Http_Range_Bytes
+                0x00059f30        0x8 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059f30                Http_Range_Bytes
  .rodata.Http_Space
-                0x00059f34        0x4 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059f34                Http_Space
- .rodata.Http_NewLine
                 0x00059f38        0x4 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059f38                Http_NewLine
- .rodata.Http_QuoteSign
+                0x00059f38                Http_Space
+ .rodata.Http_NewLine
                 0x00059f3c        0x4 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059f3c                Http_QuoteSign
- .rodata.Http_EqualSign
+                0x00059f3c                Http_NewLine
+ .rodata.Http_QuoteSign
                 0x00059f40        0x4 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059f40                Http_EqualSign
- .rodata.Http_Tab
+                0x00059f40                Http_QuoteSign
+ .rodata.Http_EqualSign
                 0x00059f44        0x4 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059f44                Http_Tab
- .rodata.Http_comma
+                0x00059f44                Http_EqualSign
+ .rodata.Http_Tab
                 0x00059f48        0x4 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059f48                Http_comma
+                0x00059f48                Http_Tab
+ .rodata.Http_comma
+                0x00059f4c        0x4 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059f4c                Http_comma
  .rodata.Http_Html_Part_1
-                0x00059f4c       0x14 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059f4c                Http_Html_Part_1
+                0x00059f50       0x14 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059f50                Http_Html_Part_1
  .rodata.Http_Html_Part_2
-                0x00059f60       0x18 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059f60                Http_Html_Part_2
+                0x00059f64       0x18 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059f64                Http_Html_Part_2
  .rodata.Http_Html_Part_3
-                0x00059f78       0x10 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059f78                Http_Html_Part_3
+                0x00059f7c       0x10 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059f7c                Http_Html_Part_3
  .rodata.staticContentTable
-                0x00059f88       0xbc ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x00059f88                staticContentTable
+                0x00059f8c       0xbc ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x00059f8c                staticContentTable
  .rodata.HttpContentBase_Default
-                0x0005a044       0x10 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
-                0x0005a044                HttpContentBase_Default
- .rodata        0x0005a054       0x98 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpClient.o)
- .rodata        0x0005a0ec       0x30 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpReceiver.o)
+                0x0005a048       0x10 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpContentBase.o)
+                0x0005a048                HttpContentBase_Default
+ .rodata        0x0005a058       0x98 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpClient.o)
+ .rodata        0x0005a0f0       0x30 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpReceiver.o)
  .rodata.httpReqHeaderTemplate
-                0x0005a11c       0x14 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpOutMsgRecipes.o)
-                0x0005a11c                httpReqHeaderTemplate
+                0x0005a120       0x14 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpOutMsgRecipes.o)
+                0x0005a120                httpReqHeaderTemplate
  .rodata.httpReqHeaderRecipe
-                0x0005a130        0xc ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpOutMsgRecipes.o)
-                0x0005a130                httpReqHeaderRecipe
- .rodata        0x0005a13c       0x30 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(Defragmentor.o)
- .rodata        0x0005a16c       0x38 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpChunkedReceiver.o)
- .rodata        0x0005a1a4       0xd4 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(DynamicFunc.o)
- .rodata        0x0005a278       0x54 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpMsg.o)
+                0x0005a134        0xc ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpOutMsgRecipes.o)
+                0x0005a134                httpReqHeaderRecipe
+ .rodata        0x0005a140       0x30 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(Defragmentor.o)
+ .rodata        0x0005a170       0x38 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpChunkedReceiver.o)
+ .rodata        0x0005a1a8       0xd4 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(DynamicFunc.o)
+ .rodata        0x0005a27c       0x54 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpMsg.o)
  .rodata.HttpProtocol
-                0x0005a2cc        0x4 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpMsg.o)
-                0x0005a2cc                HttpProtocol
- .rodata        0x0005a2d0       0xa0 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpMsgParser.o)
- .rodata        0x0005a370       0x28 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(MsgPool.o)
- .rodata        0x0005a398       0x60 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(OutMsgFactory.o)
- .rodata        0x0005a3f8       0x24 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(Msg.o)
- .rodata        0x0005a41c       0x80 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(TcpMsg.o)
- .rodata        0x0005a49c       0x34 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(CycurTLSConnection.o)
- .rodata        0x0005a4d0       0x34 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(ResourceMonitor.o)
- .rodata        0x0005a504       0x34 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(StringDescriptor.o)
- .rodata        0x0005a538       0x2c ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(Callable.o)
- .rodata        0x0005a564       0x34 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(Log.o)
- .rodata        0x0005a598       0xc4 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(ExceptionHandling.o)
- .rodata        0x0005a65c       0x58 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(DutyCycling.o)
- .rodata        0x0005a6b4       0x8c ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpUtil.o)
- .rodata        0x0005a740       0x54 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpPool.o)
- .rodata        0x0005a794       0x28 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(WebMsg.o)
- .rodata        0x0005a7bc      0x65c ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(CycurTLS_Log.o)
- .rodata        0x0005ae18       0x50 ./../Platform/Wlan/release/libWlan_efm32.a(WlanConnect.o)
- .rodata        0x0005ae68        0x8 ./../Platform/Wlan/release/libWlan_efm32.a(WlanDriver.o)
- .rodata        0x0005ae70       0x10 ./../Platform/BLE/release/libBLE_efm32.a(BlePeripheral.o)
+                0x0005a2d0        0x4 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpMsg.o)
+                0x0005a2d0                HttpProtocol
+ .rodata        0x0005a2d4       0xa0 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpMsgParser.o)
+ .rodata        0x0005a374       0x28 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(MsgPool.o)
+ .rodata        0x0005a39c       0x60 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(OutMsgFactory.o)
+ .rodata        0x0005a3fc       0x24 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(Msg.o)
+ .rodata        0x0005a420       0x80 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(TcpMsg.o)
+ .rodata        0x0005a4a0       0x34 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(CycurTLSConnection.o)
+ .rodata        0x0005a4d4       0x34 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(ResourceMonitor.o)
+ .rodata        0x0005a508       0x34 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(StringDescriptor.o)
+ .rodata        0x0005a53c       0x2c ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(Callable.o)
+ .rodata        0x0005a568       0x34 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(Log.o)
+ .rodata        0x0005a59c       0xc4 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(ExceptionHandling.o)
+ .rodata        0x0005a660       0x58 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(DutyCycling.o)
+ .rodata        0x0005a6b8       0x8c ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpUtil.o)
+ .rodata        0x0005a744       0x54 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(HttpPool.o)
+ .rodata        0x0005a798       0x28 ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(WebMsg.o)
+ .rodata        0x0005a7c0      0x65c ./../Libraries/ServalStack/debug/libServalStack_efm32_debug.a(CycurTLS_Log.o)
+ .rodata        0x0005ae1c       0x50 ./../Platform/Wlan/release/libWlan_efm32.a(WlanConnect.o)
+ .rodata        0x0005ae6c        0x8 ./../Platform/Wlan/release/libWlan_efm32.a(WlanDriver.o)
+ .rodata        0x0005ae74       0x10 ./../Platform/BLE/release/libBLE_efm32.a(BlePeripheral.o)
  .rodata.AccelerometerSensorServiceUUID
-                0x0005ae80       0x10 ./../Platform/BLE/release/libBLE_efm32.a(SensorServices.o)
-                0x0005ae80                AccelerometerSensorServiceUUID
+                0x0005ae84       0x10 ./../Platform/BLE/release/libBLE_efm32.a(SensorServices.o)
+                0x0005ae84                AccelerometerSensorServiceUUID
  .rodata.GyroSensorServiceUUID
-                0x0005ae90       0x10 ./../Platform/BLE/release/libBLE_efm32.a(SensorServices.o)
-                0x0005ae90                GyroSensorServiceUUID
+                0x0005ae94       0x10 ./../Platform/BLE/release/libBLE_efm32.a(SensorServices.o)
+                0x0005ae94                GyroSensorServiceUUID
  .rodata.LightSensorServiceUUID
-                0x0005aea0       0x10 ./../Platform/BLE/release/libBLE_efm32.a(SensorServices.o)
-                0x0005aea0                LightSensorServiceUUID
+                0x0005aea4       0x10 ./../Platform/BLE/release/libBLE_efm32.a(SensorServices.o)
+                0x0005aea4                LightSensorServiceUUID
  .rodata.NoiseSensorServiceUUID
-                0x0005aeb0       0x10 ./../Platform/BLE/release/libBLE_efm32.a(SensorServices.o)
-                0x0005aeb0                NoiseSensorServiceUUID
+                0x0005aeb4       0x10 ./../Platform/BLE/release/libBLE_efm32.a(SensorServices.o)
+                0x0005aeb4                NoiseSensorServiceUUID
  .rodata.MagnetometerSensorServiceUUID
-                0x0005aec0       0x10 ./../Platform/BLE/release/libBLE_efm32.a(SensorServices.o)
-                0x0005aec0                MagnetometerSensorServiceUUID
+                0x0005aec4       0x10 ./../Platform/BLE/release/libBLE_efm32.a(SensorServices.o)
+                0x0005aec4                MagnetometerSensorServiceUUID
  .rodata.EnvironmentSensorServiceUUID
-                0x0005aed0       0x10 ./../Platform/BLE/release/libBLE_efm32.a(SensorServices.o)
-                0x0005aed0                EnvironmentSensorServiceUUID
+                0x0005aed4       0x10 ./../Platform/BLE/release/libBLE_efm32.a(SensorServices.o)
+                0x0005aed4                EnvironmentSensorServiceUUID
  .rodata.HighDataRateServiceUUID
-                0x0005aee0       0x10 ./../Platform/BLE/release/libBLE_efm32.a(SensorServices.o)
-                0x0005aee0                HighDataRateServiceUUID
+                0x0005aee4       0x10 ./../Platform/BLE/release/libBLE_efm32.a(SensorServices.o)
+                0x0005aee4                HighDataRateServiceUUID
  .rodata.ControlNodeServiceUUID
-                0x0005aef0       0x10 ./../Platform/BLE/release/libBLE_efm32.a(SensorServices.o)
-                0x0005aef0                ControlNodeServiceUUID
+                0x0005aef4       0x10 ./../Platform/BLE/release/libBLE_efm32.a(SensorServices.o)
+                0x0005aef4                ControlNodeServiceUUID
  .rodata.FirmwareVersionCharacteristicValue
-                0x0005af00        0x4 ./../Platform/BLE/release/libBLE_efm32.a(SensorServices.o)
+                0x0005af04        0x4 ./../Platform/BLE/release/libBLE_efm32.a(SensorServices.o)
  .rodata.BidirectionalServiceUUID
-                0x0005af04       0x10 ./../Platform/BLE/release/libBLE_efm32.a(BidirectionalService.o)
-                0x0005af04                BidirectionalServiceUUID
- .rodata        0x0005af14        0xc ./../Platform/ServalPAL/release/libServalPal_efm32.a(PalIp.o)
- .rodata        0x0005af20        0x8 ./../Platform/ServalPAL/release/libServalPal_efm32.a(PalTimer.o)
- .rodata        0x0005af28       0x14 ./../Platform/ServalPAL/release/libServalPal_efm32.a(ServalPalWiFi.o)
+                0x0005af08       0x10 ./../Platform/BLE/release/libBLE_efm32.a(BidirectionalService.o)
+                0x0005af08                BidirectionalServiceUUID
+ .rodata        0x0005af18        0xc ./../Platform/ServalPAL/release/libServalPal_efm32.a(PalIp.o)
+ .rodata        0x0005af24        0x8 ./../Platform/ServalPAL/release/libServalPal_efm32.a(PalTimer.o)
+ .rodata        0x0005af2c       0x14 ./../Platform/ServalPAL/release/libServalPal_efm32.a(ServalPalWiFi.o)
  .rodata.ServalPalOpsTcpLocal
-                0x0005af3c       0x48 ./../Platform/ServalPAL/release/libServalPal_efm32.a(ServalPalWiFiTcp.o)
+                0x0005af40       0x48 ./../Platform/ServalPAL/release/libServalPal_efm32.a(ServalPalWiFiTcp.o)
  .rodata.stackVersion
-                0x0005af84        0x4 ./../Libraries/BLEStack/3rd-party/Alpwise/ALPW-BLESDKCM3/BLESW_CoreStack/Libraries/BLESW_CoreStack_CM3.a(BleMemory.o)
-                0x0005af84                stackVersion
+                0x0005af88        0x4 ./../Libraries/BLEStack/3rd-party/Alpwise/ALPW-BLESDKCM3/BLESW_CoreStack/Libraries/BLESW_CoreStack_CM3.a(BleMemory.o)
+                0x0005af88                stackVersion
  .rodata.gapAttributeMnValue
-                0x0005af88        0x7 ./../Libraries/BLEStack/3rd-party/Alpwise/ALPW-BLESDKCM3/BLESW_CoreStack/Libraries/BLESW_CoreStack_CM3.a(BleGap.o)
-                0x0005af88                gapAttributeMnValue
+                0x0005af8c        0x7 ./../Libraries/BLEStack/3rd-party/Alpwise/ALPW-BLESDKCM3/BLESW_CoreStack/Libraries/BLESW_CoreStack_CM3.a(BleGap.o)
+                0x0005af8c                gapAttributeMnValue
  .rodata.gapAttributeValueService
-                0x0005af8f        0x2 ./../Libraries/BLEStack/3rd-party/Alpwise/ALPW-BLESDKCM3/BLESW_CoreStack/Libraries/BLESW_CoreStack_CM3.a(BleGap.o)
-                0x0005af8f                gapAttributeValueService
+                0x0005af93        0x2 ./../Libraries/BLEStack/3rd-party/Alpwise/ALPW-BLESDKCM3/BLESW_CoreStack/Libraries/BLESW_CoreStack_CM3.a(BleGap.o)
+                0x0005af93                gapAttributeValueService
  .rodata.BT_BaseUUID_end
-                0x0005af91        0x2 ./../Libraries/BLEStack/3rd-party/Alpwise/ALPW-BLESDKCM3/BLESW_CoreStack/Libraries/BLESW_CoreStack_CM3.a(attmemory.o)
-                0x0005af91                BT_BaseUUID_end
+                0x0005af95        0x2 ./../Libraries/BLEStack/3rd-party/Alpwise/ALPW-BLESDKCM3/BLESW_CoreStack/Libraries/BLESW_CoreStack_CM3.a(attmemory.o)
+                0x0005af95                BT_BaseUUID_end
  .rodata.gattServiceChangedValue
-                0x0005af93        0x4 ./../Libraries/BLEStack/3rd-party/Alpwise/ALPW-BLESDKCM3/BLESW_CoreStack/Libraries/BLESW_CoreStack_CM3.a(attmemory.o)
-                0x0005af93                gattServiceChangedValue
+                0x0005af97        0x4 ./../Libraries/BLEStack/3rd-party/Alpwise/ALPW-BLESDKCM3/BLESW_CoreStack/Libraries/BLESW_CoreStack_CM3.a(attmemory.o)
+                0x0005af97                gattServiceChangedValue
  .rodata.BT_BaseUUID_beg
-                0x0005af97        0xc ./../Libraries/BLEStack/3rd-party/Alpwise/ALPW-BLESDKCM3/BLESW_CoreStack/Libraries/BLESW_CoreStack_CM3.a(attmemory.o)
-                0x0005af97                BT_BaseUUID_beg
+                0x0005af9b        0xc ./../Libraries/BLEStack/3rd-party/Alpwise/ALPW-BLESDKCM3/BLESW_CoreStack/Libraries/BLESW_CoreStack_CM3.a(attmemory.o)
+                0x0005af9b                BT_BaseUUID_beg
  .rodata.AttServerClientConfigDefaultValue
-                0x0005afa3        0x2 ./../Libraries/BLEStack/3rd-party/Alpwise/ALPW-BLESDKCM3/BLESW_CoreStack/Libraries/BLESW_CoreStack_CM3.a(attmemory.o)
-                0x0005afa3                AttServerClientConfigDefaultValue
+                0x0005afa7        0x2 ./../Libraries/BLEStack/3rd-party/Alpwise/ALPW-BLESDKCM3/BLESW_CoreStack/Libraries/BLESW_CoreStack_CM3.a(attmemory.o)
+                0x0005afa7                AttServerClientConfigDefaultValue
  .rodata.gattAttributeValueService
-                0x0005afa5        0x2 ./../Libraries/BLEStack/3rd-party/Alpwise/ALPW-BLESDKCM3/BLESW_CoreStack/Libraries/BLESW_CoreStack_CM3.a(attserverdatabase.o)
-                0x0005afa5                gattAttributeValueService
- *fill*         0x0005afa7        0x1 00
+                0x0005afa9        0x2 ./../Libraries/BLEStack/3rd-party/Alpwise/ALPW-BLESDKCM3/BLESW_CoreStack/Libraries/BLESW_CoreStack_CM3.a(attserverdatabase.o)
+                0x0005afa9                gattAttributeValueService
+ *fill*         0x0005afab        0x1 00
  .rodata.initialHash224.4087
-                0x0005afa8       0x20 ./../Libraries/Escrypt_CycurTLS/release/libEscrypt_CycurTLS_efm32.a(sha_256.o)
+                0x0005afac       0x20 ./../Libraries/Escrypt_CycurTLS/release/libEscrypt_CycurTLS_efm32.a(sha_256.o)
  .rodata.initialHash256.4088
-                0x0005afc8       0x20 ./../Libraries/Escrypt_CycurTLS/release/libEscrypt_CycurTLS_efm32.a(sha_256.o)
+                0x0005afcc       0x20 ./../Libraries/Escrypt_CycurTLS/release/libEscrypt_CycurTLS_efm32.a(sha_256.o)
  .rodata.K.4059
-                0x0005afe8      0x100 ./../Libraries/Escrypt_CycurTLS/release/libEscrypt_CycurTLS_efm32.a(sha_256.o)
- .rodata        0x0005b0e8        0xc ./../Platform/BLE/release/libBLE_efm32.a(BleSystem.o)
+                0x0005afec      0x100 ./../Libraries/Escrypt_CycurTLS/release/libEscrypt_CycurTLS_efm32.a(sha_256.o)
+ .rodata        0x0005b0ec        0xc ./../Platform/BLE/release/libBLE_efm32.a(BleSystem.o)
  .rodata.str1.4
-                0x0005b0f4        0x2 c:/xdk-workbench/xdk/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
+                0x0005b0f8        0x2 c:/xdk-workbench/xdk/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
                                   0x4 (size before relaxing)
- *fill*         0x0005b0f6        0x2 00
+ *fill*         0x0005b0fa        0x2 00
  .rodata._global_impure_ptr
-                0x0005b0f8        0x4 c:/xdk-workbench/xdk/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
-                0x0005b0f8                _global_impure_ptr
+                0x0005b0fc        0x4 c:/xdk-workbench/xdk/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-impure.o)
+                0x0005b0fc                _global_impure_ptr
  .rodata.str1.4
-                0x0005b0fc        0x2 c:/xdk-workbench/xdk/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-puts.o)
+                0x0005b100        0x2 c:/xdk-workbench/xdk/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-puts.o)
                                   0x4 (size before relaxing)
- *fill*         0x0005b0fe        0x2 00
+ *fill*         0x0005b102        0x2 00
  .rodata.str1.4
-                0x0005b100       0x42 c:/xdk-workbench/xdk/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-svfprintf.o)
+                0x0005b104       0x42 c:/xdk-workbench/xdk/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-svfprintf.o)
                                  0x44 (size before relaxing)
- *fill*         0x0005b142        0x2 00
+ *fill*         0x0005b146        0x2 00
  .rodata.zeroes.6721
-                0x0005b144       0x10 c:/xdk-workbench/xdk/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-svfprintf.o)
+                0x0005b148       0x10 c:/xdk-workbench/xdk/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-svfprintf.o)
  .rodata.blanks.6720
-                0x0005b154       0x10 c:/xdk-workbench/xdk/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-svfprintf.o)
+                0x0005b158       0x10 c:/xdk-workbench/xdk/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-svfprintf.o)
  .rodata.blanks.6735
-                0x0005b164       0x10 c:/xdk-workbench/xdk/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-vfprintf.o)
+                0x0005b168       0x10 c:/xdk-workbench/xdk/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-vfprintf.o)
  .rodata.str1.4
                 0x00000000       0x44 c:/xdk-workbench/xdk/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-vfprintf.o)
  .rodata.zeroes.6736
-                0x0005b174       0x10 c:/xdk-workbench/xdk/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-vfprintf.o)
+                0x0005b178       0x10 c:/xdk-workbench/xdk/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-vfprintf.o)
  .rodata.str1.4
-                0x0005b184       0x10 c:/xdk-workbench/xdk/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-dtoa.o)
+                0x0005b188       0x10 c:/xdk-workbench/xdk/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-dtoa.o)
                                  0x14 (size before relaxing)
  .rodata.str1.4
-                0x0005b194        0xa c:/xdk-workbench/xdk/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-locale.o)
+                0x0005b198        0xa c:/xdk-workbench/xdk/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-locale.o)
                                  0x14 (size before relaxing)
- *fill*         0x0005b19e        0x2 00
+ *fill*         0x0005b1a2        0x2 00
  .rodata.p05.5242
-                0x0005b1a0        0xc c:/xdk-workbench/xdk/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-mprec.o)
- *fill*         0x0005b1ac        0x4 00
+                0x0005b1a4        0xc c:/xdk-workbench/xdk/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-mprec.o)
+ *fill*         0x0005b1b0        0x0 00
  .rodata.__mprec_tens
                 0x0005b1b0       0xc8 c:/xdk-workbench/xdk/armgcc/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/lib/armv7-m\libc.a(lib_a-mprec.o)
                 0x0005b1b0                __mprec_tens
